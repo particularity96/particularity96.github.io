@@ -3,22 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Music Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Nic Schilling</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
 </head>
 <body>
-    <h1>Welcome to My Music</h1>
-    <p>Here you can listen to my compositions.</p>
+    <!-- Include header -->
+    <div id="header"></div>
 
-    <h2>My Compositions</h2>
-    <audio controls>
-        <source src="audio/song1.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
-    </audio>
+    <header>
+        <h1>Nic Schilling</h1>
+        <p>Musik - Theater - Games</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Vita</a></li>
+                <li><a href="choir.html">Chor</a></li>
+                <li><a href="musicals.html">Musicals</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="archive.html">Archiv</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <audio controls>
-        <source src="audio/song2.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
-    </audio>
+    <section id="about">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Explore my work as a composer, game designer, and creator of interactive media.</p>
+        <p>Click the navigation links above to learn more about my work in different fields.</p>
+    </section>
+
+    <!-- Include footer -->
+    <div id="footer"></div>
+
+    <!-- JavaScript to load header and footer -->
+    <script>
+        function loadHTML() {
+            fetch('header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header').innerHTML = data;
+                });
+
+            fetch('footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer').innerHTML = data;
+                });
+        }
+
+        loadHTML();
+    </script>
 </body>
 </html>
