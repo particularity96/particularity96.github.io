@@ -1,7 +1,7 @@
 import React from "react";
 import {
     BrowserRouter as Router,
-    Routes, 
+    Routes,
     Route,
     Link
 } from "react-router-dom";
@@ -14,6 +14,7 @@ import Archive from "./components/Archive";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Animated from "./components/Animated"; // Import the new animated component
 
 const App: React.FC = () => {
     return (
@@ -27,6 +28,7 @@ const App: React.FC = () => {
                 <Route path="/games" element={<Games />} />
                 <Route path="/archive" element={<Archive />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/animated" element={<Animated />} /> {/* Add the route for the animated component */}
             </Routes>
             <Footer />
         </Router>
