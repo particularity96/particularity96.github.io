@@ -6,6 +6,7 @@ const About: React.FC = () => {
             <h2>About Me</h2>
             <p>
                 I am a composer, game designer, and media creator. I work in music, theatre, and interactive media.
+                TEST TEST TEST
             </p>
         </div>
     );
