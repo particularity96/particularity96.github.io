@@ -1,11 +1,13 @@
 import React from 'react';
+import AnimFadeIn from "../components/AnimFadeIn";
 
 
 const Home: React.FC = () => {
     return (
+
         <div>
-            <h2>Welcome to My Website</h2>
-            <p>This is the home page. You can explore more about me and my work here.</p>
+            <h2>Nic Schilling</h2>
+            <AnimFadeIn text="Musik - Theater - Chor" duration={4} />
         </div>
     );
 };

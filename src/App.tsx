@@ -28,7 +28,7 @@ const App: React.FC = () => {
                 <Route path="/games" element={<Games />} />
                 <Route path="/archive" element={<Archive />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/animated" element={<Animated />} /> {/* Add the route for the animated component */}
+                <Route path="/animated" element={<Animated />} /> 
             </Routes>
             <Footer />
         </Router>
