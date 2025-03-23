@@ -5,13 +5,13 @@ import {
     Route,
     Link
 } from "react-router-dom";
-import Home from "./components/Home";
-import About from "./components/About";
-import Music from "./components/Music";
-import Musicals from "./components/Musicals";
-import Games from "./components/Games";
-import Archive from "./components/Archive";
-import Contact from "./components/Contact";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Music from "./pages/Music";
+import Musicals from "./pages/Musicals";
+import Games from "./pages/Games";
+import Archive from "./pages/Archive";
+import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Animated from "./components/Animated"; // Import the new animated component
