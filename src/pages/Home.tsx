@@ -1,13 +1,17 @@
-import React from "react";
-import FadeInText from "../components/AnimFadeIn"; // Ensure correct path
-import myImage from "../assets/test.png"; // Replace with your actual image path
+import React from 'react';
+import myImage from "../assets/images/nic/IMG_9710.jpg"; // Adjust the path according to your folder structure
+import FadeInText from "../components/FadeInText"; // Assuming FadeInText is in the components folder
 
-export default function Home() {
+const Home: React.FC = () => {
     return (
-        <div className="home-container">
+        <div
+            className="home-container"
+            style={{ backgroundImage: `url(${myImage})` }} // Apply the image directly
+        >
             <FadeInText text="Nic Schilling" duration={1.5} />
             <FadeInText text="Musik - Theater - Games" duration={4} />
-            <img src={myImage} alt="A descriptive alt text" className="home-image" />
         </div>
     );
-}
+};
+
+export default Home;
