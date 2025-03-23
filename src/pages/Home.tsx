@@ -5,7 +5,7 @@ import FadeInText from "../components/FadeInText"; // Assuming FadeInText is in 
 const Home: React.FC = () => {
     return (
         <div
-            className="home-container"
+            className="background-image-container"
             style={{ backgroundImage: `url(${myImage})` }} // Apply the image directly
         >
             <FadeInText text="Nic Schilling" duration={1.5} />

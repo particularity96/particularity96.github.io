@@ -7,11 +7,12 @@ const Navbar = () => {
                 <h1 className="logo">Nic Schilling</h1>
                 <ul className="nav-links">
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/music">Music</Link></li>
+                    <li><Link to="/music">Musik</Link></li>
                     <li><Link to="/musicals">Musicals</Link></li>
                     <li><Link to="/games">Games</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/about">Vita</Link></li>
+                    <li><Link to="/archive">Archiv</Link></li>
+                    <li><Link to="/contact">Kontakt</Link></li>
                 </ul>
             </div>
         </nav>

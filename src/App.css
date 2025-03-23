@@ -9,12 +9,12 @@
 
 /* Navbar styles */
 .navbar {
-    background: #1646c3;
+    background: linear-gradient(to right,#61667f,#353a50);
     color: white;
-    position: sticky;
+    position: static;
     top: 0;
     width: 100%;
-    padding: 10px 0;
+    padding: 0px 0;
     z-index: 1000; /* Ensures it stays above other content */
 }
 
@@ -26,6 +26,8 @@
     align-items: center;
     justify-content: space-between;
 }
+
+
 
 /* Logo styling */
 .logo {
@@ -48,14 +50,15 @@
     .nav-links a {
         color: white;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 16px;
         padding: 8px 12px;
+        border-radius: 7px;
         transition: 0.3s;
     }
 
         .nav-links a:hover {
             background: #83a0ec;
-            border-radius: 5px;
+            border-radius: 12px;
         }
 
 /* Footer styles */
@@ -64,9 +67,17 @@
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: static;
     bottom: 0;
-    width: 100%;
+}
+
+.footercontainer {
+    width: 80%;
+    height: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Button styles */
@@ -96,7 +107,7 @@ button {
     }
 }
 
-.home-container {
+.background-image-container {
     position: relative;
     display: flex;
     flex-direction: column;
