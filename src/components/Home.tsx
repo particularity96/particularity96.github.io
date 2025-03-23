@@ -1,15 +1,13 @@
-import React from 'react';
-import AnimFadeIn from "../components/AnimFadeIn";
+import React from "react";
+import FadeInText from "../components/AnimFadeIn"; // Ensure correct path
+import myImage from "../assets/test.png"; // Replace with your actual image path
 
-
-const Home: React.FC = () => {
+export default function Home() {
     return (
-
-        <div>
-            <h2>Nic Schilling</h2>
-            <AnimFadeIn text="Musik - Theater - Chor" duration={4} />
+        <div className="home-container">
+            <FadeInText text="Nic Schilling" duration={1.5} />
+            <FadeInText text="Musik - Theater - Games" duration={4} />
+            <img src={myImage} alt="A descriptive alt text" className="home-image" />
         </div>
     );
-};
-
-export default Home;
+}

@@ -2,9 +2,12 @@ import React from 'react';
 
 const Footer: React.FC = () => {
     return (
-        <footer>
-            <p>&copy; 2025 Your Name. All rights reserved.</p>
-        </footer>
+        <nav className="footer">
+            <div className="container">
+                <p>&copy; 2025 Nic Schilling. All rights reserved.</p>
+            </div>
+        </nav>
+            
     );
 };
 

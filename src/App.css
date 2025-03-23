@@ -1,38 +1,131 @@
+/* Use this class for component styles like Navbar, Footer, Buttons... */
+
+/* app.css */
+
+/* Center the main content */
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar styles */
+.navbar {
+    background: #1646c3;
+    color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000; /* Ensures it stays above other content */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Container for content */
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Logo styling */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .nav-links li {
+        display: inline;
+    }
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 8px 12px;
+        transition: 0.3s;
+    }
+
+        .nav-links a:hover {
+            background: #83a0ec;
+            border-radius: 5px;
+        }
+
+/* Footer styles */
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Button styles */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Home page container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Adjust height to center the content */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Title / Name */
+.home-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Tagline */
+.home-tagline {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Image styling */
+.home-image {
+    width: 250px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
