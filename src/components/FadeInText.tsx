@@ -1,19 +1,33 @@
 import { motion } from "framer-motion";
 
-interface FadeInTextProps {
-    text: string; // The text to display
-    duration?: number; // Optional: Set a custom animation duration
-}
+export default function FadeInText() {
+    const tagline = "Musik - Theater - Games"; // Hardcoded tagline
 
-export default function FadeInText({ text, duration = 2 }: FadeInTextProps) {
+    // Split the tagline into words
+    const words = tagline.split(" ");
+
     return (
-        <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration }}
-            style={{ fontSize: "1.5rem", textAlign: "center", marginTop: "20px" }}
+        <motion.div
+            style={{
+                fontSize: "1.5rem",
+                textAlign: "center",
+                marginTop: "20px",
+            }}
         >
-            {text}
-        </motion.p>
+            {words.map((word, index) => (
+                <motion.span
+                    key={index}
+                    initial={{ opacity: 0 }} // Start with no opacity
+                    animate={{ opacity: 1 }} // Fade to full opacity
+                    transition={{
+                        delay: index * 0.5, // Delay each word by 0.5 seconds
+                        duration: 1, // Duration of the fade-in effect for each word
+                    }}
+                    style={{ display: "inline-block", margin: "0 5px" }} // Ensure words are spaced
+                >
+                    {word}
+                </motion.span>
+            ))}
+        </motion.div>
     );
 }

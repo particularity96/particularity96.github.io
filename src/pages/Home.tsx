@@ -9,7 +9,7 @@ const Home: React.FC = () => {
             style={{ backgroundImage: `url(${myImage})` }} // Apply the image directly
         >
             <h1 className="title">Nic Schilling </h1>
-            <FadeInText text="Musik - Theater - Games" duration={4} />
+            <FadeInText />
         </div>
     );
 };
