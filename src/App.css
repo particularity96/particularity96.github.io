@@ -96,34 +96,3 @@ button {
     }
 }
 
-/* Home page container */
-.home-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f5f5f5;
-}
-
-.home-title {
-    font-size: 4rem;
-    font-weight: bold;
-    color: #333;
-    text-align: center;
-    border: 2px solid red; /* Debugging trick */
-}
-
-.home-tagline {
-    font-size: 2.5rem;
-    font-style: italic;
-    color: #555;
-    text-align: center;
-    border: 2px solid blue; /* Debugging trick */
-}
-
-.home-image {
-    max-width: 300px;
-    margin-top: 20px;
-    border-radius: 10px;
-}

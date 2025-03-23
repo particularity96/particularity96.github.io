@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 744.09447 466.1125" xmlns="http://www.w3.org/2000/svg">
+ <g transform="matrix(1.0315 0 0 1.0315 -20.523 -155.7)" stroke="#000">
+  <path d="m98.751 154.06h51.718v255.71h-51.718z" fill-rule="evenodd" stroke-width="1.2074"/>
+  <path d="m201.14 153.94h51.718v255.71h-51.718z" fill-rule="evenodd" stroke-width="1.2074"/>
+  <path d="m406.25 153.43h51.718v255.71h-51.718z" fill-rule="evenodd" stroke-width="1.2074"/>
+  <path d="m508.04 154.45h51.718v255.71h-51.718z" fill-rule="evenodd" stroke-width="1.2074"/>
+  <path d="m611.87 153.94h51.718v255.71h-51.718z" fill-rule="evenodd" stroke-width="1.2074"/>
+  <path d="m21.594 152.63h718.34v449.14h-718.34z" fill="none" stroke-width="2.375"/>
+  <path d="m123.8 399.56v202.18" fill="none" stroke-width="2.375"/>
+  <path d="m227.45 398.58v202.18" fill="none" stroke-width="2.375"/>
+  <path d="m432.25 399.92v202.18" fill="none" stroke-width="2.375"/>
+  <path d="m534.08 399.92v202.18" fill="none" stroke-width="2.375"/>
+  <path d="m638.45 399.2v202.18" fill="none" stroke-width="2.375"/>
+  <path d="m329.73 153.1v448.22" fill="none" stroke-width="2.375"/>
+ </g>
+</svg>

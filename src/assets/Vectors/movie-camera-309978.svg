@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
+ <g stroke-linejoin="round">
+  <path d="m186 122.33l29.958-19.985 30.198-19.515 0.2875 39.405-0.1913 39.406-30.245-19.42-30.006-19.891z" stroke-width="0"/>
+  <g stroke="#000">
+   <rect x="5.9769" y="83.342" width="178.76" height="80.777" stroke-width="1.235"/>
+   <g stroke-width="2.8">
+    <path d="m84.333 42.919a38.897 38.897 0 1 1 -77.793 0 38.897 38.897 0 1 1 77.793 0z"/>
+    <path d="m185.27 42.919a38.897 38.897 0 1 1 -77.793 0 38.897 38.897 0 1 1 77.793 0z"/>
+   </g>
+   <rect x="184.98" y="89.605" width="14.713" height="65.221" rx="6.5848" ry="6.5848" stroke-width="3.019"/>
+  </g>
+  <rect x="200.92" y="101.51" width="12.122" height="43.437" stroke-width="0"/>
+  <g stroke="#000">
+   <g stroke-width="1.2">
+    <rect transform="rotate(-59.549)" x="-224.36" y="142.3" width="114.15" height="23.234"/>
+    <rect transform="matrix(-.50681 -.86206 -.86206 .50681 0 0)" x="-319.16" y="-17.951" width="114.15" height="23.234"/>
+    <rect transform="matrix(-.0033596 -.99999 .99999 -.0033596 0 0)" x="-289.2" y="80.457" width="114.15" height="23.234"/>
+   </g>
+   <rect x="50.467" y="166.16" width="84.853" height="29.294" stroke-width="4.6"/>
+   <rect x="7.9897" y="250" width="168.93" height="39.497" stroke-width="0"/>
+  </g>
+ </g>
+</svg>
