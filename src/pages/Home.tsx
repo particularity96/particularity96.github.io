@@ -1,5 +1,5 @@
 import React from 'react';
-import myImage from "../assets/images/nic/IMG_9710.jpg"; // Adjust the path according to your folder structure
+import myImage from "../assets/images/nic/Chor24-2.jpg"; // Adjust the path according to your folder structure
 import FadeInText from "../components/FadeInText"; // Assuming FadeInText is in the components folder
 
 const Home: React.FC = () => {
