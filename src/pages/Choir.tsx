@@ -13,7 +13,7 @@ const Music: React.FC = () => {
                 <div className="flex-container">
                     <iframe
                         src="https://open.spotify.com/embed/artist/7rFgKw092LF3TgxSUBK6OS?utm_source=generator"
-                        width="50%"
+                        width="100%"
                         object-position="top"
                         height="352"
                         frameBorder="0"

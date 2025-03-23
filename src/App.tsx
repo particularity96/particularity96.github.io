@@ -7,8 +7,8 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Music from "./pages/Music";
-import Musicals from "./pages/Musicals";
+import Choir from "./pages/Choir";
+import Musical from "./pages/Musical";
 import Games from "./pages/Games";
 import Archive from "./pages/Archive";
 import Contact from "./pages/Contact";
@@ -23,8 +23,8 @@ const App: React.FC = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/music" element={<Music />} />
-                <Route path="/musicals" element={<Musicals />} />
+                <Route path="/choir" element={<Choir />} />
+                <Route path="/musical" element={<Musical />} />
                 <Route path="/games" element={<Games />} />
                 <Route path="/archive" element={<Archive />} />
                 <Route path="/contact" element={<Contact />} />

@@ -6,7 +6,7 @@ const Home: React.FC = () => {
     return (
         <div
             className="background-image-container"
-            style={{ backgroundImage: `url(${myImage})` }} // Apply the image directly
+            style={{ backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%), url(${myImage})` }} // Apply the image directly
         >
             <h1 className="title">Nic Schilling </h1>
             <FadeInText />

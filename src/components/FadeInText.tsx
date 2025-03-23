@@ -9,7 +9,7 @@ export default function FadeInText() {
     return (
         <motion.div
             style={{
-                fontSize: "1.5rem",
+                fontSize: "2.5rem",
                 textAlign: "center",
                 marginTop: "20px",
             }}
