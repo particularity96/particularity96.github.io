@@ -22,6 +22,9 @@ body {
     --primary-color: #3498db; /* Blue */
     --dark-grey: #222;
     --light-grey: #c7c7c7;
+    --dark-blue: #000048;
+    --medium-dark-blue: #0c2068;
+    --medium-blue: #184088;
 }
 
 /* Center content */

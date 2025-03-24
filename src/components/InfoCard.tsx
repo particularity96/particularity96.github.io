@@ -1,11 +1,11 @@
-import React from 'react';
+ï»¿import React from 'react';
 import { Link } from 'react-router-dom';
 
 const InfoCard: React.FC = () => {
     return (
         <div style={containerStyle}>
             <h2 style={titleStyle}>Lust, zu singen?</h2>
-            <p style={textStyle}>Für alle Stücke sind Noten und Trainings-Aufnahmen erhältlich!</p>
+            <p style={textStyle}>FÃ¼r alle Kompositionen sind Noten und Trainings-Aufnahmen erhÃ¤ltlich!</p>
             <Link to="/contact" style={buttonStyle}>Kontaktiere mich gern!</Link>
         </div>
     );
@@ -14,7 +14,7 @@ const InfoCard: React.FC = () => {
 const containerStyle: React.CSSProperties = {
     width: '100%',
     height: '40%',
-    backgroundColor: 'var(--dark-grey)',  // Light background color for contrast
+    background: 'linear-gradient(20deg, var(--medium-blue), var(--dark-blue))',
     borderRadius: '10px',
     padding: '20px',
     boxSizing: 'border-box',  // Ensures padding is included in the width/height
@@ -23,7 +23,7 @@ const containerStyle: React.CSSProperties = {
     justifyContent: 'space-between',
     alignItems: 'center',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',  // Optional shadow for better visual
-    marginBottom: "40px"
+    marginBottom: "40px" 
 };
 
 const titleStyle: React.CSSProperties = {
@@ -35,7 +35,7 @@ const titleStyle: React.CSSProperties = {
 const textStyle: React.CSSProperties = {
     marginBottom: '20px',
     fontSize: '16px',
-    color: 'var(--light-grey)',
+    color: 'white',
     textAlign: 'center',
 };
 

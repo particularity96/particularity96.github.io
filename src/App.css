@@ -9,7 +9,7 @@
 
 /* Navbar styles */
 .navbar {
-    background: linear-gradient(20deg, #447ec5, #353a50);
+    background: linear-gradient(20deg, var(--medium-blue), var(--dark-blue));
     color: white;
     position: static;
     top: 0;
