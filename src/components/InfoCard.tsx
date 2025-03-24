@@ -1,5 +1,6 @@
 ﻿import React from 'react';
 import { Link } from 'react-router-dom';
+import bgImage from "../assets/images/choir-23.jpg";
 
 const InfoCard: React.FC = () => {
     return (

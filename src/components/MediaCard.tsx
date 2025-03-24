@@ -31,7 +31,10 @@ const MediaCard: React.FC<MediaCardProps> = ({
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 marginBottom: "40px",
-                backgroundImage: imageUrl ? `url(${imageUrl})` : "none",
+                backgroundImage: imageUrl
+                    ? `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%), 
+                    url(${imageUrl})`
+                    : "none",
             }}
         >
             <h3 style={{ margin: 0, color: "white", textShadow: "2px 2px 5px black" }}>
