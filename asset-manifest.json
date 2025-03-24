@@ -1,19 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.61d7b5f4.css",
-    "main.js": "/static/js/main.edef6051.js",
+    "main.js": "/static/js/main.844dbcd4.js",
     "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
-    "static/media/Farewell.Alt.mp3": "/static/media/Farewell.Alt.68a7fd5eadfa2fcca620.mp3",
+    "static/media/Album_Cover_Still.png": "/static/media/Album_Cover_Still.3c70cc7d64c1ce16ffcf.png",
+    "static/media/Album_Cover_Farewell.png": "/static/media/Album_Cover_Farewell.1db524ea97301eb85d3c.png",
+    "static/media/Farewell to a dying star.mp3": "/static/media/Farewell to a dying star.2efecf05e09123802346.mp3",
+    "static/media/Sandburgen.mp3": "/static/media/Sandburgen.56b6251c1e6b2c2cd1b3.mp3",
     "static/media/Still-live.mp3": "/static/media/Still-live.c970b40fe2461a4f663d.mp3",
-    "static/media/choir-23.jpg": "/static/media/choir-23.3fda9c7605d6eb4a60ac.jpg",
+    "static/media/Breaking.V7.full.mp3": "/static/media/Breaking.V7.full.35e8e8ab94246cfa7ce5.mp3",
+    "static/media/When she loved me.mp3": "/static/media/When she loved me.d0eb6b8b186f150aee4f.mp3",
+    "static/media/Actions speak louder than words.mp3": "/static/media/Actions speak louder than words.9e4fc4fa47f56d95dffb.mp3",
+    "static/media/Amen Chor SATB.mp3": "/static/media/Amen Chor SATB.7ce9ed43639d2919c712.mp3",
+    "static/media/Still Studio RELEASE.mp3": "/static/media/Still Studio RELEASE.260618534dd6fb0d377a.mp3",
+    "static/media/Piano-Lonely.jpg": "/static/media/Piano-Lonely.f3f31ac44e2c90e62676.jpg",
+    "static/media/Amen2.jpg": "/static/media/Amen2.2771c09a98b26462e88f.jpg",
+    "static/media/Toy-Story.jpg": "/static/media/Toy-Story.32e892e790c9dfc6b3e9.jpg",
+    "static/media/Why god why teaser.mp3": "/static/media/Why god why teaser.47e368662c19ef38046d.mp3",
+    "static/media/Wolken.jpg": "/static/media/Wolken.2cb19d51f97e6503230b.jpg",
     "static/media/Chor24-2.jpg": "/static/media/Chor24-2.001bc3a9c909e499f782.jpg",
+    "static/media/Miss_Saigon_Darker.png": "/static/media/Miss_Saigon_Darker.77bde929a7fd0012a563.png",
     "index.html": "/index.html",
     "main.61d7b5f4.css.map": "/static/css/main.61d7b5f4.css.map",
-    "main.edef6051.js.map": "/static/js/main.edef6051.js.map",
+    "main.844dbcd4.js.map": "/static/js/main.844dbcd4.js.map",
     "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61d7b5f4.css",
-    "static/js/main.edef6051.js"
+    "static/js/main.844dbcd4.js"
   ]
 }
