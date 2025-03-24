@@ -193,3 +193,48 @@ button {
 .media-card:nth-child(3) {
     justify-self: end; /* Aligns the third card to the right */
 }
+
+
+
+/* Styles for the about section */
+
+.about-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Bio Section with Image */
+.bio-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bio-text {
+    max-width: 900px;
+}
+
+.bio-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.bio-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: left;
+}
