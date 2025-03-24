@@ -1,4 +1,4 @@
-/* Use this class for component styles like Navbar, Footer, Buttons... */
+﻿/* Use this class for component styles like Navbar, Footer, Buttons... */
 
 /* app.css */
 
@@ -132,6 +132,8 @@ button {
     }
 }
 
+
+
 .flex-container {
     display: flex;
     justify-content: center; /* Aligns content to the right */
@@ -163,6 +165,21 @@ button {
     gap: 20px;
     width: 100%; /* Ensure the grid takes the full width of its container */
     max-width: 1200px; /* Optional: Limit grid width for large screens */
+}
+
+@media (max-width: 1100px) {
+    .media-grid {
+        grid-template-columns: 1fr; /* Switch to a single column */
+        justify-items: center; /* Center the cards */
+        display: flex; /* ✅ Switch to flexbox for full control */
+        flex-direction: column; /* ✅ Stack the cards */
+        align-items: center; /* ✅ Center all cards */
+    }
+    .media-card:nth-child(1),
+    .media-card:nth-child(2),
+    .media-card:nth-child(3) {
+        justify-self: center; /* ✅ Override previous alignment */
+    }
 }
 
 .media-card:nth-child(1) {
