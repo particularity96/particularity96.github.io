@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3ffeabc.css",
-    "main.js": "/static/js/main.839f51d0.js",
+    "main.css": "/static/css/main.b930231a.css",
+    "main.js": "/static/js/main.a9a2b3b8.js",
     "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
+    "static/media/Farewell.Alt.mp3": "/static/media/Farewell.Alt.68a7fd5eadfa2fcca620.mp3",
+    "static/media/Still-live.mp3": "/static/media/Still-live.c970b40fe2461a4f663d.mp3",
+    "static/media/choir-23.jpg": "/static/media/choir-23.3fda9c7605d6eb4a60ac.jpg",
     "static/media/Chor24-2.jpg": "/static/media/Chor24-2.001bc3a9c909e499f782.jpg",
     "index.html": "/index.html",
-    "main.b3ffeabc.css.map": "/static/css/main.b3ffeabc.css.map",
-    "main.839f51d0.js.map": "/static/js/main.839f51d0.js.map",
+    "main.b930231a.css.map": "/static/css/main.b930231a.css.map",
+    "main.a9a2b3b8.js.map": "/static/js/main.a9a2b3b8.js.map",
     "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3ffeabc.css",
-    "static/js/main.839f51d0.js"
+    "static/css/main.b930231a.css",
+    "static/js/main.a9a2b3b8.js"
   ]
 }
