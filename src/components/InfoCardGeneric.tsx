@@ -5,9 +5,8 @@ import bgImage from "../assets/images/choir-23.jpg";
 const InfoCardSheetMusic: React.FC = () => {
     return (
         <div style={containerStyle}>
-            <h2 style={titleStyle}>Lust, zu singen?</h2>
-            <p style={textStyle}>Für alle Kompositionen sind Noten und Trainings-Aufnahmen erhältlich!</p>
-            <Link to="/contact" style={buttonStyle}>Kontaktiere mich gern!</Link>
+            <h2 style={titleStyle}>Vokal-Arrangements</h2>
+            <p style={textStyle}>Neben der Komposition arrangiere ich gern Stücke für Vokal-Ensembles. Hier eine kleine Auswahl:</p>
         </div>
     );
 };
