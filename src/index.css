@@ -1,6 +1,7 @@
 /* Use this class for global styles like backgrounds, fonts and layouts... */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
 .title {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -15,6 +16,12 @@ body {
     margin: 0;
     padding: 0;
     font-size: 14px;
+}
+
+:root {
+    --primary-color: #3498db; /* Blue */
+    --dark-grey: #222;
+    --light-grey: #c7c7c7;
 }
 
 /* Center content */

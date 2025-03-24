@@ -3,12 +3,10 @@ import React from 'react';
 const Musicals: React.FC = () => {
     return (
         <div>
-            <h2>Musicals & Theatre</h2>
-            <p>Here are some of my musical theatre projects:</p>
+            <h2>Musical & Theater</h2>
             <ul>
-                <li>Musical 1</li>
-                <li>Musical 2</li>
-                <li>Musical 3</li>
+                <li>Sturm inkl. Songs</li>
+                <li>Laika inkl. Songs</li>
             </ul>
         </div>
     );
