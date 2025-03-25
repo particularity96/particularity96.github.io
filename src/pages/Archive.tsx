@@ -202,6 +202,13 @@ const archiveData: ArchiveItem[] = [
 
     // Sonstige
     {
+        title: "Kulturpolitische Arbeit",
+        description: "Meine politische Arbeit begann mit der Co-Vorstandschaft und Neu-Konzeption des Arbeitskreises 'Theater am Campus' in Bayreuth. In den folgenden Jahren wirkte ich u.a. als Sprecherrat für Kultur, Chancengleichheit und Campusgestaltung in der Kulturvertretung der Studierenden mit. Dabei organisierte ich u.a. die Campus Kultur Woche, eine Woche mit über 50 Veranstaltungen, die aufgrund der Pandemie auf ein Semester ausgedehnt und digitalisiert wurde. Später engagierte ich mich dann weiter im studentischen Theaterverein 'Schaulust e.V.' als Mitglied des Vergabegremiums. In Kooperation mit der Stadt Bayreuth, dem Kulturamt, dem Kulturreferenten, dem Studentenwerk und der Universität konnten wir zahlreiche Mittel einwerben, die technische Ausstattung des Theaterraums verbessern, Strukturen und eine universitäre Teilzeit- Stelle schaffen, die vom freien Regisseur Daniel Schauf besetzt wurde.",
+        category: "Sonstige",
+        year: 2016,
+        imageUrl: CBImage,
+    },
+    {
         title: "Manic Creative GbR",
         description: "Anfang 2021 war ich als Gesellschafter* an der Firmengründung von 'Manic Creative' beteiligt. Manic war eine Kreativagentur, die Künstler*innen mit kleinen Unternehmen Vermittelte und größere Projekte in Grafikdesign, Animation, Marketing, Jingle-Produktion und Workshop-Gestaltung organisierte.",
         category: "Sonstige",
@@ -223,6 +230,37 @@ const archiveData: ArchiveItem[] = [
         year: 2016,
         imageUrl: CBImage,
     },
+    {
+        title: "Campus Kultur Semester",
+        description: "Dabei organisierte ich u.a. die Campus Kultur Woche, eine Woche mit über 50 Veranstaltungen, die aufgrund der Pandemie auf ein Semester ausgedehnt und digitalisiert wurde.",
+        category: "Sonstige",
+        year: 2020,
+        imageUrl: CBImage,
+        link: "https://www.instagram.com/campuskultur.bayreuth/"
+    },
+    {
+        title: "UBT Digitaler Campus",
+        description: "In zahlreichen universitären und außer-universitären Projekten konnte ich über mehrere Jahre hinweg das Leiten von Workshops im Musik-, Theater- und Musicalbereich erlenen. Dabei arbeitete ich sowohl mit Kindern und Jugendlichen als auch mit Erwachsenen verschiedener Erfahrungsgrade. Ich war unter anderem zwei Jahre lang als studentische Hilfskraft für das Interkulturelle Musizieren in Bayreuth tätig, wo ich ebenfalls Proben leitete und für die Sichtung von Material verantwortlich war.",
+        category: "Sonstige",
+        year: 2020,
+        imageUrl: CBImage,
+    },
+    {
+        title: "Förderverein Queeres Musiktheater e.V.",
+        description: "Zur Förderung neuer, queerer und feministischer Musiktheater- und Musical-Formate gründete ich 2024 den Förderverein Queeres Musiktheater e.V., in dem ich den 1. Vorstand besetze.",
+        category: "Sonstige",
+        year: 2024,
+        imageUrl: CBImage,
+    },
+    {
+        title: "Schauspiel (Film)",
+        description: "Als Schauspieler* wirkte ich bei zahlreichen Kurzfilmprojekten und Musikvideos mit. Dazu gehören u.a. 'Berge aus Fleisch', 'Das S in Weihnachten', 'Nachtschatten', 'Eure Masche zieht nicht' von Fabian Merks sowie 'Time's Mixtape' und 'Was dich bewegt' von Peter Collin.",
+        category: "Sonstige",
+        year: 2016,
+        imageUrl: CBImage,
+        link: "https://youtu.be/JYeM9dBoBbY?si=MQjZqUSQChb1JSMK"
+    },
+
     
 ];
 
