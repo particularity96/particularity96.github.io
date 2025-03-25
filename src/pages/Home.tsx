@@ -11,6 +11,7 @@ const Home: React.FC = () => {
             <h1 className="title">Nic Schilling </h1>
             <FadeInText />
         </div>
+
     );
 };
 
