@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a515106.css",
-    "main.js": "/static/js/main.2fdf64c0.js",
+    "main.css": "/static/css/main.6e78edb3.css",
+    "main.js": "/static/js/main.fe9761a7.js",
     "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
     "static/media/Album_Cover_Still.png": "/static/media/Album_Cover_Still.3c70cc7d64c1ce16ffcf.png",
     "static/media/Album_Cover_Farewell.png": "/static/media/Album_Cover_Farewell.1db524ea97301eb85d3c.png",
@@ -25,12 +25,12 @@
     "static/media/Chor24-2.jpg": "/static/media/Chor24-2.001bc3a9c909e499f782.jpg",
     "static/media/Miss_Saigon_Darker.png": "/static/media/Miss_Saigon_Darker.77bde929a7fd0012a563.png",
     "index.html": "/index.html",
-    "main.2a515106.css.map": "/static/css/main.2a515106.css.map",
-    "main.2fdf64c0.js.map": "/static/js/main.2fdf64c0.js.map",
+    "main.6e78edb3.css.map": "/static/css/main.6e78edb3.css.map",
+    "main.fe9761a7.js.map": "/static/js/main.fe9761a7.js.map",
     "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a515106.css",
-    "static/js/main.2fdf64c0.js"
+    "static/css/main.6e78edb3.css",
+    "static/js/main.fe9761a7.js"
   ]
 }
