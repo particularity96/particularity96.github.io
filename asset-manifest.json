@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0fa2b3a4.css",
-    "main.js": "/static/js/main.8dfc31dd.js",
+    "main.js": "/static/js/main.d6fef8d3.js",
     "static/js/453.b03e3c98.chunk.js": "/static/js/453.b03e3c98.chunk.js",
     "static/media/Album_Cover_Still.png": "/static/media/Album_Cover_Still.3c70cc7d64c1ce16ffcf.png",
     "static/media/Album_Cover_Farewell.png": "/static/media/Album_Cover_Farewell.1db524ea97301eb85d3c.png",
@@ -40,20 +40,20 @@
     "static/media/Sturm_2.png": "/static/media/Sturm_2.0ba0ad2d0ccdba1d6cf8.png",
     "static/media/Wolken.jpg": "/static/media/Wolken.2cb19d51f97e6503230b.jpg",
     "static/media/screenshot-itch.png": "/static/media/screenshot-itch.b371e773eebbd6858024.png",
+    "static/media/sphaerophon-original.jpg": "/static/media/sphaerophon-original.104b64fde246ac85c1fa.jpg",
     "static/media/Chor24-2.jpg": "/static/media/Chor24-2.001bc3a9c909e499f782.jpg",
     "static/media/Miss_Saigon_Darker.png": "/static/media/Miss_Saigon_Darker.77bde929a7fd0012a563.png",
-    "static/media/screenshot-sphaerophon.png": "/static/media/screenshot-sphaerophon.c02607014f0258f57872.png",
     "static/media/Ikarus2.png": "/static/media/Ikarus2.66f415a46cfbad2d86a3.png",
     "static/media/screenshot-music-master.png": "/static/media/screenshot-music-master.2df5da9102970b581dfc.png",
     "static/media/instagram.png": "/static/media/instagram.d5e46c333bdcbd376705.png",
     "static/media/linkedin.png": "/static/media/linkedin.63b96b9ea7fdfd7a5ee0.png",
     "index.html": "/index.html",
     "main.0fa2b3a4.css.map": "/static/css/main.0fa2b3a4.css.map",
-    "main.8dfc31dd.js.map": "/static/js/main.8dfc31dd.js.map",
+    "main.d6fef8d3.js.map": "/static/js/main.d6fef8d3.js.map",
     "453.b03e3c98.chunk.js.map": "/static/js/453.b03e3c98.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fa2b3a4.css",
-    "static/js/main.8dfc31dd.js"
+    "static/js/main.d6fef8d3.js"
   ]
 }
