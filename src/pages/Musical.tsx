@@ -14,9 +14,9 @@ import song2Audio from "../assets/audio/Sandburgen.mp3";
 import song3Audio from "../assets/audio/Farewell to a dying star.mp3";
 
 const mediaItems1 = [
-    { title: "Still - Live", image: song1Image, audio: song1Audio, text: "Unichor Bayreuth" },
-    { title: "Von Sehnsucht und Sandburgen", image: song2Image, audio: song2Audio, text: "Ein Stück über das älter werden, über Vertrautheit, und über das Abschied nehmen. (S: Annabell Strobel / A: Nina Pesch)" },
-    { title: "Farewell to a Dying Star", image: song3Image, audio: song3Audio, text: "Inspiriert von dem Gedicht 'Do not go gentle into that good night' von Dylan Thomas. Zwei Sterne stehen seit Jahrmillionen nebeneinander am Nachthimmel. Während der eine verglüht, singt ihm der andere dieses Abschiedslied. (S/A: Annabell Strobel)" },
+    { title: "Ikarus", image: song1Image, audio: song1Audio, text: "Trito hinterfragt nach einem sehr schief gelaufenen Outing deren eigene Kraft." },
+    { title: " Fledermäuse", image: song2Image, audio: song2Audio, text: "Der Chor singt ein Lied über ihre Großeltern und die Zeit vor dem Sturm. Die Aufnahme ist eine solistische version." },
+    { title: "Jede Nacht", image: song3Image, audio: song3Audio, text: "Der Chor läutet mit Trito an der Spitze das Musical ein. Das Stück soll vermitteln, wie sich die Jugendlichen in der Kirche fühlen und wie der Sturm sie bedrückt, es soll gleichzeitig aber auch zeigen, dass sie eine Gemeinschaft gefunden haben." },
 ];
 
 const Musicals: React.FC = () => {
