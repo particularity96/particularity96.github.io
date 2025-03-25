@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.306b2551.css",
-    "main.js": "/static/js/main.d5bd2bfc.js",
+    "main.css": "/static/css/main.3784a334.css",
+    "main.js": "/static/js/main.2fdf64c0.js",
     "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
     "static/media/Album_Cover_Still.png": "/static/media/Album_Cover_Still.3c70cc7d64c1ce16ffcf.png",
     "static/media/Album_Cover_Farewell.png": "/static/media/Album_Cover_Farewell.1db524ea97301eb85d3c.png",
@@ -14,20 +14,23 @@
     "static/media/Actions speak louder than words.mp3": "/static/media/Actions speak louder than words.9e4fc4fa47f56d95dffb.mp3",
     "static/media/Amen Chor SATB.mp3": "/static/media/Amen Chor SATB.7ce9ed43639d2919c712.mp3",
     "static/media/Still Studio RELEASE.mp3": "/static/media/Still Studio RELEASE.260618534dd6fb0d377a.mp3",
+    "static/media/scherben.jpg": "/static/media/scherben.96a28abc409ae9bfb03f.jpg",
     "static/media/Piano-Lonely.jpg": "/static/media/Piano-Lonely.f3f31ac44e2c90e62676.jpg",
+    "static/media/Laika.jpg": "/static/media/Laika.9eb70d75e0aea21cf30a.jpg",
     "static/media/Amen2.jpg": "/static/media/Amen2.2771c09a98b26462e88f.jpg",
     "static/media/Toy-Story.jpg": "/static/media/Toy-Story.32e892e790c9dfc6b3e9.jpg",
     "static/media/Why god why teaser.mp3": "/static/media/Why god why teaser.47e368662c19ef38046d.mp3",
+    "static/media/Sturm_Screenshot.png": "/static/media/Sturm_Screenshot.fbb2686227bcb0d7f3a7.png",
     "static/media/Wolken.jpg": "/static/media/Wolken.2cb19d51f97e6503230b.jpg",
     "static/media/Chor24-2.jpg": "/static/media/Chor24-2.001bc3a9c909e499f782.jpg",
     "static/media/Miss_Saigon_Darker.png": "/static/media/Miss_Saigon_Darker.77bde929a7fd0012a563.png",
     "index.html": "/index.html",
-    "main.306b2551.css.map": "/static/css/main.306b2551.css.map",
-    "main.d5bd2bfc.js.map": "/static/js/main.d5bd2bfc.js.map",
+    "main.3784a334.css.map": "/static/css/main.3784a334.css.map",
+    "main.2fdf64c0.js.map": "/static/js/main.2fdf64c0.js.map",
     "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.306b2551.css",
-    "static/js/main.d5bd2bfc.js"
+    "static/css/main.3784a334.css",
+    "static/js/main.2fdf64c0.js"
   ]
 }
