@@ -50,15 +50,22 @@
     align-items: center;
     justify-content: flex-start;
     width: auto;
-    height: 100vh; /* Full screen height */
+    min-height: 100vh;
     transform-origin: center center;
     text-align: center;
     color: white;
-    z-index: 1; 
+    z-index: 1;
     background-repeat: no-repeat;
     background-size: 130%;
     background-position: top;
     overflow: hidden;
+}
+
+@media (max-width: 768px), (max-aspect-ratio: 3/4) {
+    .background-image-container {
+        height: 50vh; /* Reduce height on smaller screens */
+        background-size: cover; /* Prevent zooming */
+    }
 }
 
 
