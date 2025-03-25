@@ -5,7 +5,7 @@ import bgImageSalzsammler from "../assets/images/Salzsammler.jpg"
 import bgImageCB from "../assets/images/curse-broom-screenshot.png"
 import bgImageItch from "../assets/images/screenshot-itch.png"
 import bgImageMM from "../assets/images/screenshot-music-master.png"
-import bgImageSphaerophon from "../assets/images/screenshot-sphaerophon.png"
+import bgImageSphaerophon from "../assets/images/sphaerophon-original.jpg"
 
 
 const Games: React.FC = () => {
@@ -22,7 +22,7 @@ const Games: React.FC = () => {
             />
             <YouTubeEmbed
                 youtubeId="_pMCzDzWwfA"
-                title="My Awesome Game"
+                title="Salzsammler Trailer"
             />
             <div className="divider"></div>
             <Showcase
@@ -35,27 +35,30 @@ const Games: React.FC = () => {
             />
             <YouTubeEmbed
                 youtubeId="EU-POBMh15I"
-                title="My Awesome Game"
+                title="Cursed Broom Trailer"
             />
+            <div className="divider"></div>
+            <Showcase
+                title="Sphaerophon"
+                subtitle="Ein XR-Instrument"
+                description="Sphaerophon ist ein virtuelles Instrument für die Hololens.Es wurde 2023 an der Universität Bayreuth von Nadine Jachmann, Jonas Würdinger und mir entwickelt. Das Sphaerophon ist vergleichbar mit einem digitalen Theremin, das durch die Bewegung von Sphären im Raum und bestimmte Handbewegungen gespielt werden kann."
+                backgroundImage={bgImageSphaerophon}
+            />
+            <YouTubeEmbed
+                youtubeId="0ZekT3jNAWU"
+                title="Sphaerophon Trailer"
+            />
+            
             <div className="divider"></div>
             <Showcase
                 title="Music Master"
                 subtitle="Intelligente, adaptive Musik beim Lesen"
-                description="Music Master ist eine Anwendung, die mithilfe von Eye-Tracking-Daten und der automatischen emotionalen Analyse von Text musikalische Parameter vorkomponierter Musik anpassen kann, um die Lese-Erfahrung zu bereichern."
+                description="Music Master ist eine Anwendung, die mithilfe von Eye-Tracking-Daten und der automatischen emotionalen Analyse von Text musikalische Parameter vorkomponierter Musik anpassen kann, um die Lese-Erfahrung zu bereichern. Das Projekt ist aktuell in Entwicklung."
                 backgroundImage={bgImageMM}
             />
             <div className="divider"></div>
-
             <Showcase
-                title="Sphaerophon"
-                subtitle="Ein neues XR-Instrument"
-                description="Gemeinsam mit Jonas Würdinger und Nadine Jachmann entstand ein virtuelles Instrument, etwa vergleichbar mit einem Theremin, das durch die Bewegung im Raum und bestimmte Handbewegungen gespielt werden kann. Das Instrument ist für die Hololens entwickelt."
-                backgroundImage={bgImageSphaerophon}
-            />
-            <div className="divider"></div>
-
-            <Showcase
-                title="Kleine Spielprojekte"
+                title="Spielprojekte"
                 subtitle="Auf Itch.io"
                 description="Im Rahmen von GameJams habe ich inzwischen bei einigen kleineren Spielprojekten mitgewirkt. Diese sind hier zu finden."
                 backgroundImage={bgImageItch}
