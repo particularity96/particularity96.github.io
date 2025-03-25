@@ -1,6 +1,6 @@
 ﻿import React from "react";
 
-interface MusicalProps {
+interface ShowcaseProps {
     title: string;
     subtitle: string;
     description: string;
@@ -9,7 +9,7 @@ interface MusicalProps {
     buttonLink?: string;  // Optional link for the button
 }
 
-const MusicalShowcase: React.FC<MusicalProps> = ({
+const Showcase: React.FC<ShowcaseProps> = ({
     title,
     subtitle,
     description,
@@ -25,14 +25,14 @@ const MusicalShowcase: React.FC<MusicalProps> = ({
     };
 
     return (
-        <div className="musical-showcase" style={{ backgroundImage: `url(${backgroundImage})` }}>
-            <div className="musical-content">
+        <div className="showcase" style={{ backgroundImage: `url(${backgroundImage})` }}>
+            <div className="showcase-content">
                 <h1>{title}</h1>
                 <h3>{subtitle}</h3>
                 <p>{description}</p>
                 {/* Conditionally render the button if buttonText and buttonLink are provided */}
                 {buttonText && buttonLink && (
-                    <button className="musical-button" onClick={handleButtonClick}>
+                    <button className="showcase-button" onClick={handleButtonClick}>
                         {buttonText}
                     </button>
                 )}
@@ -41,4 +41,4 @@ const MusicalShowcase: React.FC<MusicalProps> = ({
     );
 };
 
-export default MusicalShowcase;
+export default Showcase;

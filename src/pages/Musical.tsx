@@ -1,5 +1,5 @@
 ﻿import React from 'react';
-import MusicalShowcase from "../components/MusicalShowcase";
+import MusicalShowcase from "../components/Showcase";
 import bgImageSturm from "../assets/images/sturm/Sturm_Screenshot.png"
 import bgImageLaika from "../assets/images/laika/Laika-title.jpg"
 import bgImageScherben from "../assets/images/scherben.jpg"
