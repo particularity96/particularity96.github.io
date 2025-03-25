@@ -1,22 +1,46 @@
 ﻿import React from 'react';
 import MusicalShowcase from "../components/MusicalShowcase";
 import bgImageSturm from "../assets/images/sturm/Sturm_Screenshot.png"
-import bgImageLaika from "../assets/images/Laika.jpg"
+import bgImageLaika from "../assets/images/laika/Laika-title.jpg"
 import bgImageScherben from "../assets/images/scherben.jpg"
 import MediaCard from "../components/MediaCard"
 
-import song1Image from "../assets/images/album-cover/Album_Cover_Still.png";
-import song2Image from "../assets/images/album-cover/Album_Cover_Farewell.png";
-import song3Image from "../assets/images/album-cover/Album_Cover_Farewell.png";
+import song1Image from "../assets/images/sturm/Ikarus2.png";
+import song2Image from "../assets/images/sturm/Sturm_Screenshot.png";
+import song3Image from "../assets/images/sturm/Amen.jpg";
+import song4Image from "../assets/images/sturm/Amen.png";
+import song5Image from "../assets/images/sturm/hourglass.jpg";
+import song6Image from "../assets/images/sturm/Sturm_2.png";
+import song7Image from "../assets/images/laika/IMG_4856-2.jpg";
+import song8Image from "../assets/images/laika/Laika-title.jpg";
+import song9Image from "../assets/images/laika/IMG_4870.jpg";
 
-import song1Audio from "../assets/audio/Still-live.mp3";
-import song2Audio from "../assets/audio/Sandburgen.mp3";
-import song3Audio from "../assets/audio/Farewell to a dying star.mp3";
+import song1Audio from "../assets/audio/Der Sturm - Ikarus.mp3";
+import song2Audio from "../assets/audio/Der Sturm - Fledermäuse.mp3";
+import song3Audio from "../assets/audio/Der Sturm - Jede Nacht.mp3";
+import song4Audio from "../assets/audio/Schachfigur Mockup.mp3";
+import song5Audio from "../assets/audio/Sturm - Die Legende Demo V 1.0.mp3";
+import song6Audio from "../assets/audio/Sturm - Du (Nele + Meli).mp3";
+import song7Audio from "../assets/audio/07 - Ich bin für dich da - Laika.mp3";
+import song8Audio from "../assets/audio/11 - Freak - Laika.mp3";
+import song9Audio from "../assets/audio/06 - Aufstehen - Laika.mp3";
 
 const mediaItems1 = [
     { title: "Ikarus", image: song1Image, audio: song1Audio, text: "Trito hinterfragt nach einem sehr schief gelaufenen Outing deren eigene Kraft." },
-    { title: " Fledermäuse", image: song2Image, audio: song2Audio, text: "Der Chor singt ein Lied über ihre Großeltern und die Zeit vor dem Sturm. Die Aufnahme ist eine solistische version." },
+    { title: "Fledermäuse", image: song2Image, audio: song2Audio, text: "Der Chor singt ein Lied über ihre Großeltern und die Zeit vor dem Sturm. Die Aufnahme ist eine solistische version." },
     { title: "Jede Nacht", image: song3Image, audio: song3Audio, text: "Der Chor läutet mit Trito an der Spitze das Musical ein. Das Stück soll vermitteln, wie sich die Jugendlichen in der Kirche fühlen und wie der Sturm sie bedrückt, es soll gleichzeitig aber auch zeigen, dass sie eine Gemeinschaft gefunden haben." },
+];
+
+const mediaItems2 = [
+    { title: "Schachfigur", image: song4Image, audio: song4Audio, text: "Pepper versucht Tritos Verzweiflung besser zu verstehen. Nachdem sie vor Trito das Wort 'nichtbinär' erwähnt, versteht Trito, dass dey nichtbinär ist." },
+    { title: "Die Legende", image: song5Image, audio: song5Audio, text: "Der Chor erzählt die Legende der Sanduhr." },
+    { title: "Du", image: song6Image, audio: song6Audio, text: "Lila tröstet Pepper, und die beiden kommen sich näher. Lila: Michaela Thurner, Pepper: Nele Neugebauer" },
+];
+
+const mediaItems3 = [
+    { title: "Ich bin für dich da", image: song7Image, audio: song7Audio, text: "Während Mona Laika versichert, dass sie in ihrer Geschichte nicht alleine ist, kann Laika Mona plötzlich sehen und die beiden singen ein Duett, obwohl Laika nur eine Figur in Monas Geschichte ist." },
+    { title: "Freak", image: song8Image, audio: song8Audio, text: "Der Lehrer hetzt die ganze Klasse gegen Laika auf, weil sie anders ist als die anderen." },
+    { title: "Aufstehen", image: song9Image, audio: song9Audio, text: "Laikas neue Freundin Amelie stellt sich gegen die Klasse und steht für Laika ein." },
 ];
 
 const Musicals: React.FC = () => {
@@ -44,6 +68,17 @@ const Musicals: React.FC = () => {
                             />
                         ))}
                     </div>
+                    <div className="media-grid">
+                        {mediaItems2.map((item, index) => (
+                            <MediaCard
+                                key={index}
+                                title={item.title}
+                                text={item.text}
+                                imageUrl={item.image}
+                                audioSrc={item.audio}
+                            />
+                        ))}
+                    </div>
                 </div>
                 <MusicalShowcase
                     title="Laika"
@@ -54,7 +89,7 @@ const Musicals: React.FC = () => {
                 <div style={{ marginBottom: "30px" }}></div> 
                 <div className="media-gallery">
                     <div className="media-grid">
-                        {mediaItems1.map((item, index) => (
+                        {mediaItems3.map((item, index) => (
                             <MediaCard
                                 key={index}
                                 title={item.title}
