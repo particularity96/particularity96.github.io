@@ -315,13 +315,27 @@ button {
     border-radius: 0px; /* Slight rounding for a softer look */
 }
 
+@media (max-width: 768px) {
+    .showcase {
+        min-height: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .showcase-content {
+        padding: 20px;
+    }
+}
+
 /* Mobile Menu Styles */
 .menu-button {
     display: none;
 }
 
 /* Responsive styles for mobile */
-@media (max-width: 768px) {
+@media (max-width: 990px) {
     .menu-button {
         display: block;
         position: fixed;
