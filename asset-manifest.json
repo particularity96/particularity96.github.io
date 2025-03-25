@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.72a19d74.css",
-    "main.js": "/static/js/main.a510b430.js",
-    "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
+    "main.css": "/static/css/main.d1e33c1a.css",
+    "main.js": "/static/js/main.0c7c62c6.js",
+    "static/js/453.b03e3c98.chunk.js": "/static/js/453.b03e3c98.chunk.js",
     "static/media/Album_Cover_Still.png": "/static/media/Album_Cover_Still.3c70cc7d64c1ce16ffcf.png",
     "static/media/Album_Cover_Farewell.png": "/static/media/Album_Cover_Farewell.1db524ea97301eb85d3c.png",
     "static/media/07 - Ich bin für dich da - Laika.mp3": "/static/media/07 - Ich bin für dich da - Laika.93370e21e17bf38a8cc2.mp3",
@@ -27,8 +27,10 @@
     "static/media/hourglass.jpg": "/static/media/hourglass.5ecd522abc9912fd651b.jpg",
     "static/media/scherben.jpg": "/static/media/scherben.96a28abc409ae9bfb03f.jpg",
     "static/media/IMG_4870.jpg": "/static/media/IMG_4870.a55ba6e56396dfa8dfd1.jpg",
+    "static/media/Salzsammler.jpg": "/static/media/Salzsammler.88998cdfe0ec0a798802.jpg",
     "static/media/Piano-Lonely.jpg": "/static/media/Piano-Lonely.f3f31ac44e2c90e62676.jpg",
     "static/media/Laika-title.jpg": "/static/media/Laika-title.9eb70d75e0aea21cf30a.jpg",
+    "static/media/curse-broom-screenshot.png": "/static/media/curse-broom-screenshot.743202f897fee8c54f56.png",
     "static/media/Amen2.jpg": "/static/media/Amen2.2771c09a98b26462e88f.jpg",
     "static/media/Toy-Story.jpg": "/static/media/Toy-Story.32e892e790c9dfc6b3e9.jpg",
     "static/media/Why god why teaser.mp3": "/static/media/Why god why teaser.47e368662c19ef38046d.mp3",
@@ -37,16 +39,19 @@
     "static/media/Amen.png": "/static/media/Amen.87cba3608e6a883ffd65.png",
     "static/media/Sturm_2.png": "/static/media/Sturm_2.0ba0ad2d0ccdba1d6cf8.png",
     "static/media/Wolken.jpg": "/static/media/Wolken.2cb19d51f97e6503230b.jpg",
+    "static/media/screenshot-itch.png": "/static/media/screenshot-itch.b371e773eebbd6858024.png",
     "static/media/Chor24-2.jpg": "/static/media/Chor24-2.001bc3a9c909e499f782.jpg",
     "static/media/Miss_Saigon_Darker.png": "/static/media/Miss_Saigon_Darker.77bde929a7fd0012a563.png",
+    "static/media/screenshot-sphaerophon.png": "/static/media/screenshot-sphaerophon.c02607014f0258f57872.png",
     "static/media/Ikarus2.png": "/static/media/Ikarus2.66f415a46cfbad2d86a3.png",
+    "static/media/screenshot-music-master.png": "/static/media/screenshot-music-master.2df5da9102970b581dfc.png",
     "index.html": "/index.html",
-    "main.72a19d74.css.map": "/static/css/main.72a19d74.css.map",
-    "main.a510b430.js.map": "/static/js/main.a510b430.js.map",
-    "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
+    "main.d1e33c1a.css.map": "/static/css/main.d1e33c1a.css.map",
+    "main.0c7c62c6.js.map": "/static/js/main.0c7c62c6.js.map",
+    "453.b03e3c98.chunk.js.map": "/static/js/453.b03e3c98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72a19d74.css",
-    "static/js/main.a510b430.js"
+    "static/css/main.d1e33c1a.css",
+    "static/js/main.0c7c62c6.js"
   ]
 }
