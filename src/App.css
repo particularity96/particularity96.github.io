@@ -27,6 +27,14 @@
     justify-content: space-between;
 }
 
+.fullSizeContainer {
+    width: 100%;
+    max-width: 1200px; /* Adjust to match your navbar and footer */
+    margin: 0 auto; /* Centering */
+    padding: 0 20px; /* Prevents content from touching the edges */
+    box-sizing: border-box;
+}
+
 .navbar-container {
     width: 80%;
     margin: auto;
@@ -237,4 +245,35 @@ button {
     font-size: 1.2em;
     line-height: 1.6;
     text-align: left;
+}
+
+/* Styles for the Musical Section */
+
+.musical-showcase {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding: 0px;
+    
+}
+
+    .musical-showcase::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1) , rgba(0, 0, 0, 0) 150%) /* Dark overlay for better readability */
+    }
+
+.musical-content {
+    padding: 40px;
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
 }
