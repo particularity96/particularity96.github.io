@@ -54,6 +54,8 @@ const Musicals: React.FC = () => {
                     description="Eine Gruppe Jugendlicher sucht in einer Kirche Schutz vor dem draußen tobenden Sturm. Sie leben dort teilweise schon seit langer Zeit, abgeschottet von der Außenwelt. Als Neuankömmling Lila dazustößt, wird die Gruppendynamik aufgewirbelt ... 
                                 Dieses neue, etwa 110-minütige Musical erzählt eine bewegende Geschichte über Akzeptanz und Gemeinschaft und verarbeitet dabei Themen wie Queerness, Identität, Freundschaft und Heimat."
                     backgroundImage={bgImageSturm}
+                    buttonText="Mehr Infos"
+                    buttonLink="https://www.sturm-musical.de"
                 />
                 <div style={{ marginBottom: "30px" }}></div> 
                 <div className="media-gallery">
@@ -103,9 +105,12 @@ const Musicals: React.FC = () => {
                 <MusicalShowcase
                     title="Scherben"
                     subtitle="Live-Hörspiel (Schauspiel)"
-                    description="Das etwa 60-minütige Live-Hörspiel Scherben setzt sich mit dem Thema Depression und Freundschaft auseinander. In diesem sehr intensiven Stück begleiten wir vier Freunde in einer Psychiatrie, die gemeinsam lernen, mit ihren psychischen Erkrankungen umzugehen und sich gegenseitig zu unterstützen. Emotionale Höhepunkte werden nicht mit Musik untermalt, sondern mit Geräuschkulissen und Gedichten vertont."
+                    description="Das etwa 60-minütige Live-Hörspiel Scherben setzt sich mit dem Thema Depression und Freundschaft auseinander. In diesem sehr intensiven Stück begleiten wir vier Freunde in einer Psychiatrie, die gemeinsam lernen, mit ihren psychischen Erkrankungen umzugehen und sich gegenseitig zu unterstützen. Emotionale Höhepunkte werden nicht mit Musik untermalt, sondern mit Geräuschkulissen und Gedichten vertont. Die Aufnahme ist 2019 in Bayreuth entstanden."
                     backgroundImage={bgImageScherben}
+                    buttonText="Aufnahme Soundcloud"
+                    buttonLink="https://soundcloud.com/niclas-schilling-27768401/scherben"
                 />
+                {/* Link: https://soundcloud.com/niclas-schilling-27768401/scherben */}
             </div>
         </div>
     );

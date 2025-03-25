@@ -7,7 +7,7 @@ const InfoCardSheetMusic: React.FC = () => {
         <div style={containerStyle}>
             <h2 style={titleStyle}>Lust, zu singen?</h2>
             <p style={textStyle}>Für alle Kompositionen sind Noten und Trainings-Aufnahmen erhältlich!</p>
-            <Link to="/contact" style={buttonStyle}>Schreib mir einfach!</Link>
+            <Link to="/contact" className="musical-button" >Schreib mir einfach!</Link>
         </div>
     );
 };

@@ -335,4 +335,22 @@ button {
         }
 }
 
+.musical-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 25px;
+    background-color: var(--dark-grey);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 7px;
+    transition: 0.2s;
+    text-decoration: none;
+}
 
+    .musical-button:hover {
+        background-color: var(--medium-blue);
+        border-radius: 12px;
+    }
