@@ -1,0 +1,144 @@
+﻿
+
+/* Farben für Kategorien */
+
+
+
+.concert {
+    border-left: 6px solid #ff6f61; /* Rote Akzentfarbe für Musik */
+}
+
+.musical {
+    border-left: 6px solid #6a5acd; /* Lila für Theater */
+}
+
+.media {
+    border-left: 6px solid #1e90ff; /* Blau für Medien */
+}
+
+.other {
+    border-left: 6px solid var(--light-gray); /* Blau für Medien */
+}
+
+
+/* Allgemeine Container-Styling */
+.archive-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Filter-Buttons */
+.archive-filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+    .archive-filters button {
+        background: var(--dark-blue);
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: background 0.3s ease, transform 0.2s;
+    }
+
+        .archive-filters button.active {
+            background: var(--medium-blue);
+            color: white;
+            font-weight: bold;
+        }
+
+        .archive-filters button:hover {
+            background: var(--medium-blue);
+            color: white;
+            transform: scale(1.05);
+        }
+
+/* Grid-Layout */
+.archive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Einzelne Archive-Elemente */
+.archive-item {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .archive-item:hover {
+        transform: scale(1.02);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    }
+
+/* Bilder */
+.archive-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Info-Bereich */
+.archive-info {
+    padding: 15px;
+}
+
+    .archive-info h3 {
+        margin: 0;
+        font-size: 18px;
+        color: #333;
+    }
+
+    .archive-info p {
+        font-size: 14px;
+        color: #666;
+        margin: 10px 0;
+    }
+
+    .archive-info a {
+        display: inline-block;
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 10px;
+        transition: color 0.3s ease;
+    }
+
+        .archive-info a:hover {
+            color: #0056b3;
+        }
+
+/* Responsive Anpassungen */
+@media (max-width: 768px) {
+    .archive-filters {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+        .archive-filters button {
+            padding: 8px 12px;
+            font-size: 14px;
+        }
+
+    .archive-info h3 {
+        font-size: 16px;
+    }
+
+    .archive-info p {
+        font-size: 13px;
+    }
+}
+
+

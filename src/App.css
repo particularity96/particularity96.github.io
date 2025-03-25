@@ -450,3 +450,42 @@ button {
         background-color: var(--dark-blue); 
         transform: scale(1.05); /* Slightly enlarges on hover */
     }
+
+
+.archive-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.archive-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+    .archive-filters button {
+        padding: 10px 15px;
+        border: none;
+        background: #ddd;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+        .archive-filters button.active {
+            background: #555;
+            color: white;
+        }
+
+.archive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.archive-item {
+    background: white;
+    box-shadow: 0 2px 5px
+}
