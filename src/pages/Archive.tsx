@@ -22,7 +22,7 @@ import ImageCB from "../assets/images/curse-broom-screenshot.png";
 import ImageMM from "../assets/images/screenshot-music-master.png";
 import ImageER from "../assets/images/bg_main_2.jpeg";
 import ImageSalz from "../assets/images/Salzsammler.jpg";
-import ImageBL24 from "../assets/images/Salzsammler.jpg";
+import ImageBL24 from "../assets/images/BL24.png";
 import ImageBL21 from "../assets/images/BL21.png";
 import ImageNash from "../assets/images/Nash.jpg";
 import ImageQMT from "../assets/images/QMusikTheater.jpg";
@@ -110,7 +110,7 @@ const archiveData: ArchiveItem[] = [
         link: "#/musical",
     },
     {
-        title: "O my heart",
+        title: "O MY HEART",
         description: "Dieses von der Regisseurin Annabell Strobel entwickelte Jukebox-Musical mit Songs der Band 'Mother Mother' setzt sich mit der Beziehung zweier Queerer Charaktere auseinander. Neben der Musikalischen Leitung war ich auch für das Arrangement und Percussion/Schlagzeug zuständig.",
         category: "Musical",
         year: 2022,
@@ -208,7 +208,7 @@ const archiveData: ArchiveItem[] = [
         description: "Für mehrere neue Kino-Spots des BücherLaden Walldürn durfte ich 2024 eine Komposition und Sound-Kulisse entwerfen, aufnehmen und produzieren.",
         category: "Medien",
         year: 2024,
-        imageUrl: ImageBL21,
+        imageUrl: ImageBL24,
     },
     {
         title: "Der Moment",

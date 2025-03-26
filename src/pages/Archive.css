@@ -5,19 +5,19 @@
 
 
 .concert {
-    border-left: 6px solid #ff6f61; /* Rote Akzentfarbe für Musik */
+    border-left: 6px solid var(--medium-blue); /* Rote Akzentfarbe für Musik */
 }
 
 .musical {
-    border-left: 6px solid #6a5acd; /* Lila für Theater */
+    border-left: 6px solid #9966CC; /* Lila für Theater */
 }
 
 .media {
-    border-left: 6px solid #1e90ff; /* Blau für Medien */
+    border-left: 6px solid #3d9158; /* Blau für Medien */
 }
 
 .other {
-    border-left: 6px solid var(--light-gray); /* Blau für Medien */
+    border-left: 6px solid var(--dark-grey); /* Blau für Medien */
 }
 
 
