@@ -99,7 +99,7 @@
     }
 
         .nav-links a:hover {
-            background: #83a0ec;
+            background: var(--light-blue);
             border-radius: 12px;
         }
 

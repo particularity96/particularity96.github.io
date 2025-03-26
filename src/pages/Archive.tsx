@@ -1,4 +1,4 @@
-﻿import React, { useState } from "react";
+﻿import React, { useState, useRef, useEffect } from "react";
 import '../pages/Archive.css';
 
 import ImageChor from "../assets/images/choir-23.jpg";
@@ -301,13 +301,24 @@ const categoryColors: { [key: string]: string } = {
     Sonstige: "other",
 };
 
-
 const ArchiveGrid: React.FC = () => {
     const [selectedCategory, setSelectedCategory] = useState("Alle");
+    const [expandedIndexes, setExpandedIndexes] = useState<Set<number>>(new Set());
+    const itemRefs = useRef<(HTMLDivElement | null)[]>([]);
 
     const filteredItems = archiveData.filter(
         (item) => selectedCategory === "Alle" || item.category === selectedCategory
     );
+
+    const toggleItemExpansion = (index: number) => {
+        const newExpandedIndexes = new Set(expandedIndexes);
+        if (newExpandedIndexes.has(index)) {
+            newExpandedIndexes.delete(index);
+        } else {
+            newExpandedIndexes.add(index);
+        }
+        setExpandedIndexes(newExpandedIndexes);
+    };
 
     return (
         <div className="archive-container">
@@ -315,9 +326,7 @@ const ArchiveGrid: React.FC = () => {
                 {categories.map((category) => (
                     <button
                         key={category}
-                        className={
-                            selectedCategory === category ? "active" : ""
-                        }
+                        className={selectedCategory === category ? "active" : ""}
                         onClick={() => setSelectedCategory(category)}
                     >
                         {category}
@@ -327,21 +336,39 @@ const ArchiveGrid: React.FC = () => {
             <div className="archive-grid">
                 {filteredItems
                     .sort((a, b) => b.year - a.year)
-                    .map((item) => (
+                    .map((item, index) => (
                         <div
                             key={item.title}
-                            className={`archive-item ${categoryColors[item.category] || ""}`}
+                            className={`archive-item ${categoryColors[item.category] || ""} ${expandedIndexes.has(index) ? "expanded" : ""
+                                }`}
+                            ref={(el) => {
+                                itemRefs.current[index] = el;
+                            }}
                         >
-                            <img
-                                src={item.imageUrl}
-                                alt={item.title}
-                                className="archive-image"
-                            />
-                            <div className="archive-info">
-                                <h3>{item.title} ({item.year})</h3>
-                                <p>{item.description}</p>
-                                {item.link && <a href={item.link}>Mehr erfahren</a>}
-                            </div>
+                            {/* Make the whole item except the button clickable */}
+                            <a href={item.link} className="archive-link">
+                                <img
+                                    src={item.imageUrl}
+                                    alt={item.title}
+                                    className="archive-image"
+                                />
+                                <div className="archive-info">
+                                    <h3>{item.title} ({item.year})</h3>
+                                    <p>
+                                        {expandedIndexes.has(index)
+                                            ? item.description
+                                            : item.description.slice(0, 100) + "..."}
+                                    </p>
+                                </div>
+                            </a>
+
+                            {/* The button is now separate, and does not trigger the link */}
+                            <button
+                                className="expand-button"
+                                onClick={() => toggleItemExpansion(index)}
+                            >
+                                {expandedIndexes.has(index) ? "Weniger anzeigen" : "Mehr anzeigen"}
+                            </button>
                         </div>
                     ))}
             </div>
@@ -350,3 +377,7 @@ const ArchiveGrid: React.FC = () => {
 };
 
 export default ArchiveGrid;
+
+
+
+
