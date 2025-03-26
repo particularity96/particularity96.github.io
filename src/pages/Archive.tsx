@@ -295,15 +295,15 @@ const archiveData: ArchiveItem[] = [
 const categories = ["Alle", "Konzert", "Musical", "Medien", "Sonstige"];
 
 const categoryColors: { [key: string]: string } = {
-    Konzert: "concert",  // matches 'Konzert'
-    Musical: "musical",  // matches 'Musical'
-    Medien: "media",     // matches 'Medien'
+    Konzert: "concert",
+    Musical: "musical",
+    Medien: "media",
     Sonstige: "other",
 };
 
 const ArchiveGrid: React.FC = () => {
     const [selectedCategory, setSelectedCategory] = useState("Alle");
-    const [expandedIndexes, setExpandedIndexes] = useState<Set<number>>(new Set());
+    const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
     const itemRefs = useRef<(HTMLDivElement | null)[]>([]);
 
     const filteredItems = archiveData.filter(
@@ -311,13 +311,19 @@ const ArchiveGrid: React.FC = () => {
     );
 
     const toggleItemExpansion = (index: number) => {
-        const newExpandedIndexes = new Set(expandedIndexes);
-        if (newExpandedIndexes.has(index)) {
-            newExpandedIndexes.delete(index);
+        if (expandedIndex === index) {
+            // If the clicked item is already expanded, collapse it
+            setExpandedIndex(null);
         } else {
-            newExpandedIndexes.add(index);
+            // Otherwise, expand the clicked item and collapse others
+            setExpandedIndex(index);
         }
-        setExpandedIndexes(newExpandedIndexes);
+    };
+
+    const handleCategoryChange = (category: string) => {
+        // When the category changes, reset the expanded index
+        setSelectedCategory(category);
+        setExpandedIndex(null); // Collapse all items when changing categories
     };
 
     return (
@@ -327,7 +333,7 @@ const ArchiveGrid: React.FC = () => {
                     <button
                         key={category}
                         className={selectedCategory === category ? "active" : ""}
-                        onClick={() => setSelectedCategory(category)}
+                        onClick={() => handleCategoryChange(category)}
                     >
                         {category}
                     </button>
@@ -339,7 +345,7 @@ const ArchiveGrid: React.FC = () => {
                     .map((item, index) => (
                         <div
                             key={item.title}
-                            className={`archive-item ${categoryColors[item.category] || ""} ${expandedIndexes.has(index) ? "expanded" : ""
+                            className={`archive-item ${categoryColors[item.category] || ""} ${expandedIndex === index ? "expanded" : ""
                                 }`}
                             ref={(el) => {
                                 itemRefs.current[index] = el;
@@ -355,7 +361,7 @@ const ArchiveGrid: React.FC = () => {
                                 <div className="archive-info">
                                     <h3>{item.title} ({item.year})</h3>
                                     <p>
-                                        {expandedIndexes.has(index)
+                                        {expandedIndex === index
                                             ? item.description
                                             : item.description.slice(0, 100) + "..."}
                                     </p>
@@ -367,7 +373,7 @@ const ArchiveGrid: React.FC = () => {
                                 className="expand-button"
                                 onClick={() => toggleItemExpansion(index)}
                             >
-                                {expandedIndexes.has(index) ? "Weniger anzeigen" : "Mehr anzeigen"}
+                                {expandedIndex === index ? "Weniger anzeigen" : "Mehr anzeigen"}
                             </button>
                         </div>
                     ))}

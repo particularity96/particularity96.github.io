@@ -28,6 +28,7 @@
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 /* Filter-Buttons */
@@ -63,9 +64,10 @@
 /* Grid-Layout */
 .archive-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap: 20px;
     justify-content: center;
+    width: 100%;
 }
 
 /* Einzelne Archive-Elemente */
@@ -78,11 +80,18 @@
     position: relative;
     text-decoration: none;
     padding-bottom: 25px;
+    transition: all 0.3s ease;
+    width: 100%;
 }
 
     .archive-item:hover {
         transform: translateY(-2px);
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    }
+    .archive-item.expanded .archive-info p {
+        /* Expand the description text or show additional content */
+        height: auto;
+        max-height: none;
     }
 
 /* Entire item is clickable */
@@ -148,6 +157,8 @@
 /* Info-Bereich */
 .archive-info {
     padding: 15px;
+    transition: height 0.3s ease; /* Smooth transition of height */
+    overflow: hidden;
 }
 
     .archive-info h3 {
