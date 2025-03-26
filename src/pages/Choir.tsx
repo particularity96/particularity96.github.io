@@ -28,7 +28,7 @@ import song9Audio from "../assets/audio/Why god why teaser.mp3";
 
 // Define each song's details manually
 const mediaItems1 = [
-    { title: "Still - Live", image: song1Image, audio: song1Audio, text: "Unichor Bayreuth" },
+    { title: "Still - Live", image: song1Image, audio: song1Audio, text: "Ein Stück über das Entkommen aus dem Alltag. Aufgenommen 2024 mit dem Unichor Bayreuth." },
     { title: "Von Sehnsucht und Sandburgen", image: song2Image, audio: song2Audio, text: "Ein Stück über das älter werden, über Vertrautheit, und über das Abschied nehmen. (S: Annabell Strobel / A: Nina Pesch)" },
     { title: "Farewell to a Dying Star", image: song3Image, audio: song3Audio, text: "Inspiriert von dem Gedicht 'Do not go gentle into that good night' von Dylan Thomas. Zwei Sterne stehen seit Jahrmillionen nebeneinander am Nachthimmel. Während der eine verglüht, singt ihm der andere dieses Abschiedslied. (S/A: Annabell Strobel)" },
 ];
@@ -36,7 +36,7 @@ const mediaItems1 = [
 const mediaItems2 = [
     { title: "Breaking through the sky", image: song4Image, audio: song4Audio, text: "Das Schwesterstück zu 'Farewell to a dying star'. Zwei Liebende fallen durch den Himmel, während sie sich an den Händen halten. (S/A: Annabell Strobel)" },
     { title: "Amen", image: song5Image, audio: song5Audio, text: "Eine Kombination aus traditionellen Strukturen einer Messe und einem Sea Shanty. Das Stück ist Teil des Musicals 'Im Auge des Sturms', und ist in dieser Version für gemischten Chor ausgearbeitet. (S/A: Annabell Strobel) " },
-    { title: "Still", image: song6Image, audio: song6Audio, text: "Die Studio-Version des Songs (S/A: Annabell Strobel)" },
+    { title: "Still", image: song6Image, audio: song6Audio, text: "Die Studio-Version von 'Still' (S/A: Annabell Strobel)" },
 ];
 
 const mediaItems3 = [

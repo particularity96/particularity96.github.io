@@ -87,6 +87,8 @@ const Musicals: React.FC = () => {
                     subtitle="Jugend - Musical"
                     description="Laika ist anders als ihre Mitschülerinnen. Sie hört Musik, egal wohin sie geht. Wenn ihre Klasse und auch ihr Lehrer anfangen, sie dafür auszugrenzen, überschlagen sich die Ereignisse. Das Musical behandelt Themen wie Mobbing, Ausgrenzung und Diversität. Es wurde bereits mehrfach aufgeführt. Aufgrund seiner thematischen Relevanz, flexiblen Besetzung und einfacher Ausstattung ist das Stück besonders gut für Schulen geeignet."
                     backgroundImage={bgImageLaika}
+                    buttonText="Ich will das aufführen!"
+                    buttonLink="#/contact"
                 />
                 <div style={{ marginBottom: "30px" }}></div> 
                 <div className="media-gallery">
