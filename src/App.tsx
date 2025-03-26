@@ -15,6 +15,8 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Animated from "./components/Animated"; // Import the new animated component
+import Impressum from "./pages/Impressum";
+import Datenschutz from "./pages/Datenschutz";
 
 const App: React.FC = () => {
     return (
@@ -29,6 +31,8 @@ const App: React.FC = () => {
                 <Route path="/archive" element={<Archive />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/animated" element={<Animated />} /> 
+                <Route path="/impressum" element={<Impressum />} />
+                <Route path="/datenschutz" element={<Datenschutz />} />
             </Routes>
             <Footer />
         </Router>
