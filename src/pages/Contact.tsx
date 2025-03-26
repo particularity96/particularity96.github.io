@@ -2,6 +2,7 @@ import React from "react";
 import instagramIcon from "../assets/logos/instagram.png";
 import linkedinIcon from "../assets/logos/linkedin.png";
 import youtubeIcon from "../assets/logos/youtube.png";
+import { Link } from "react-router-dom";
 
 const Contact: React.FC = () => {
     return (
@@ -20,6 +21,12 @@ const Contact: React.FC = () => {
                 <a href="https://www.youtube.com/channel/UCqIDHVXrbbAt0cZ1OLlyZBw" target="_blank" rel="noopener noreferrer" className="social-button">
                     <img src={youtubeIcon} alt="YouTube" />
                 </a>
+            </div>
+            <div className="legal-links">
+                <ul>
+                    <li><Link to="/impressum">Impressum</Link></li> {/* Use Link component */}
+                    <li><Link to="/datenschutz">Datenschutz</Link></li> {/* Use Link component */}
+                </ul>
             </div>
         </div>
     );
