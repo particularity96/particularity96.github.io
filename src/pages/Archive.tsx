@@ -54,7 +54,7 @@ const archiveData: ArchiveItem[] = [
         category: "Konzert",
         year: 2024,
         imageUrl: ImageChor,
-        link: "#/choir",
+        link: "https://unichor-bayreuth.de/",
     },
     {
         title: "ConZert.",
@@ -62,6 +62,7 @@ const archiveData: ArchiveItem[] = [
         category: "Konzert",
         year: 2020,
         imageUrl: ImageConZert,
+        link: "https://youtu.be/IHtJsVR0md0"
     },
     {
         title: "Fabians Cypher",
@@ -69,6 +70,7 @@ const archiveData: ArchiveItem[] = [
         category: "Konzert",
         year: 2020,
         imageUrl: ImageCypher,
+        link: "https://youtu.be/SgmtLCYcLy0"
     },
     {
         title: "Rise",
@@ -76,6 +78,7 @@ const archiveData: ArchiveItem[] = [
         category: "Konzert",
         year: 2011,
         imageUrl: ImageRise,
+        link: "https://www.amazon.com/Rise-Nic-Alex/dp/B00N4XHGBQ"
     },
     {
         title: "Abbe Lewis",
@@ -83,6 +86,7 @@ const archiveData: ArchiveItem[] = [
         category: "Konzert",
         year: 2014,
         imageUrl: ImageAbbe,
+        link: "https://www.youtube.com/watch?v=ovfjy1xVmGc"
     },
     {
         title: "Mushu",
@@ -90,6 +94,7 @@ const archiveData: ArchiveItem[] = [
         category: "Konzert",
         year: 2013,
         imageUrl: ImageMushu,
+        link: "https://youtu.be/PekrjWqNoFQ?si=Q6Kt_7C1cV_suUah"
     },
     {
         title: "Solistische Auftritte",
@@ -129,6 +134,7 @@ const archiveData: ArchiveItem[] = [
         category: "Musical",
         year: 2020,
         imageUrl: ImageCAT,
+        link: "https://silverspotlight.net/"
     },
     {
         title: "Scherben",
@@ -136,6 +142,7 @@ const archiveData: ArchiveItem[] = [
         category: "Musical",
         year: 2019,
         imageUrl: ImageScherben,
+        link: "#/musical",
     },
     {
         title: "Jeanny",
@@ -150,6 +157,7 @@ const archiveData: ArchiveItem[] = [
         category: "Musical",
         year: 2017,
         imageUrl: ImageDONA,
+        link: "https://youtu.be/R5mPqAAqEng?si=FKCIA6TxMsMxS72E"
     },
     {
         title: "Laika",
@@ -157,6 +165,7 @@ const archiveData: ArchiveItem[] = [
         category: "Musical",
         year: 2014,
         imageUrl: ImageLaika,
+        link: "#/musical",
     },
 
     // Medien
@@ -180,6 +189,7 @@ const archiveData: ArchiveItem[] = [
         category: "Medien",
         year: 2024,
         imageUrl: ImageCB,
+        link: "#/games",
     },
     {
         title: "Salzsammler",
@@ -187,6 +197,7 @@ const archiveData: ArchiveItem[] = [
         category: "Medien",
         year: 2024,
         imageUrl: ImageSalz,
+        link: "#/games",
     },
     {
         title: "Nash Harding",
@@ -194,6 +205,7 @@ const archiveData: ArchiveItem[] = [
         category: "Medien",
         year: 2023,
         imageUrl: ImageNash,
+        link: "https://youtu.be/xykwLH86M4I?si=q0ED88miothwNR6T"
     },
     {
         title: "BücherLaden Walldürn Spot",
@@ -223,10 +235,11 @@ const archiveData: ArchiveItem[] = [
     // Sonstige
     {
         title: "Kulturpolitische Arbeit",
-        description: "Meine politische Arbeit begann mit der Co-Vorstandschaft und Neu-Konzeption des Arbeitskreises 'Theater am Campus' in Bayreuth. In den folgenden Jahren wirkte ich u.a. als Sprecherrat für Kultur, Chancengleichheit und Campusgestaltung in der Kulturvertretung der Studierenden mit. Dabei organisierte ich u.a. die Campus Kultur Woche, eine Woche mit über 50 Veranstaltungen, die aufgrund der Pandemie auf ein Semester ausgedehnt und digitalisiert wurde. Später engagierte ich mich dann weiter im studentischen Theaterverein 'Schaulust e.V.' als Mitglied des Vergabegremiums. In Kooperation mit der Stadt Bayreuth, dem Kulturamt, dem Kulturreferenten, dem Studentenwerk und der Universität konnten wir zahlreiche Mittel einwerben, die technische Ausstattung des Theaterraums verbessern, Strukturen und eine universitäre Teilzeit- Stelle schaffen, die vom freien Regisseur Daniel Schauf besetzt wurde.",
+        description: "Meine politische Arbeit begann mit der Co-Vorstandschaft und Neu-Konzeption des Arbeitskreises 'Theater am Campus' in Bayreuth. In den folgenden Jahren wirkte ich u.a. als Sprecherrat für Kultur, Chancengleichheit und Campusgestaltung des Studierendenwerks in der Kulturvertretung der Studierenden mit. Dabei organisierte ich u.a. die Campus Kultur Woche, eine Woche mit über 50 Veranstaltungen, die aufgrund der Pandemie auf ein Semester ausgedehnt und digitalisiert wurde. Später engagierte ich mich dann weiter im studentischen Theaterverein 'Schaulust e.V.' als Mitglied des Vergabegremiums. In Kooperation mit der Stadt Bayreuth, dem Kulturamt, dem Kulturreferenten, dem Studentenwerk und der Universität konnten wir zahlreiche Mittel einwerben, die technische Ausstattung des Theaterraums verbessern, Strukturen und eine universitäre Teilzeit- Stelle schaffen, die vom freien Regisseur Daniel Schauf besetzt wurde.",
         category: "Sonstige",
         year: 2016,
         imageUrl: ImageTaC,
+        link: "https://theateramcampus.com/"
     },
     {
         title: "Manic Creative GbR",
@@ -252,7 +265,7 @@ const archiveData: ArchiveItem[] = [
     },
     {
         title: "Campus Kultur Semester",
-        description: "Dabei organisierte ich u.a. die Campus Kultur Woche, eine Woche mit über 50 Veranstaltungen, die aufgrund der Pandemie auf ein Semester ausgedehnt und digitalisiert wurde.",
+        description: "Im Rahmen meiner kulturpolitischen Arbeit an der Universität Bayreuth organisierte ich u.a. die Campus Kultur Woche, eine Woche mit über 50 Veranstaltungen, die aufgrund der Pandemie auf ein Semester ausgedehnt und digitalisiert wurde.",
         category: "Sonstige",
         year: 2020,
         imageUrl: ImageCKS,
@@ -260,10 +273,11 @@ const archiveData: ArchiveItem[] = [
     },
     {
         title: "UBT Digitaler Campus",
-        description: "In zahlreichen universitären und außer-universitären Projekten konnte ich über mehrere Jahre hinweg das Leiten von Workshops im Musik-, Theater- und Musicalbereich erlenen. Dabei arbeitete ich sowohl mit Kindern und Jugendlichen als auch mit Erwachsenen verschiedener Erfahrungsgrade. Ich war unter anderem zwei Jahre lang als studentische Hilfskraft für das Interkulturelle Musizieren in Bayreuth tätig, wo ich ebenfalls Proben leitete und für die Sichtung von Material verantwortlich war.",
+        description: "Als die Pandemie begann, waren Gesellschaft und kultureller Austausch ein rares Gut. Um dem entgegenzuwirken, schuf ich im Rahmen meiner Position im Studierendenparlament den 'Digitalen Campus UBT'. Einen Discord-Server, der binnen weniger Tage auf über 1200 Mitglieder wuchs, und sowohl während der Pandemie als auch darüber hinaus ein wichtiger Knotenpunkt der Kommunikation für Studierende und Initiativen war.",
         category: "Sonstige",
         year: 2020,
         imageUrl: ImageCKS,
+        link: "https://www.studienberatung.uni-bayreuth.de/de/studienstart/Tipps-zum-digitalen-Studieren/Kontakte-knuepfen-und-Ankommen/index.html"
     },
     {
         title: "Förderverein Queeres Musiktheater e.V.",
@@ -271,6 +285,7 @@ const archiveData: ArchiveItem[] = [
         category: "Sonstige",
         year: 2024,
         imageUrl: ImageQMT,
+        link: "https://queeres-musiktheater.de/"
     },
     {
         title: "Schauspiel (Film)",
@@ -352,7 +367,7 @@ const ArchiveGrid: React.FC = () => {
                             }}
                         >
                             {/* Make the whole item except the button clickable */}
-                            <a href={item.link} className="archive-link">
+                            <a href={item.link} className="archive-link" target="_blank" rel="noopener noreferrer">
                                 <img
                                     src={item.imageUrl}
                                     alt={item.title}
