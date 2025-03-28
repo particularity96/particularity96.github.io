@@ -178,7 +178,7 @@ const archiveData: ArchiveItem[] = [
     },
     {
         title: "Energy Racer",
-        description: "Die Restauration und Ausarbeitung eines Klima-Spiels für Schüler*innen in Godot.",
+        description: "Die Restauration und Ausarbeitung eines Klima-Spiels für Schüler*innen in der Engine Godot.",
         category: "Medien",
         year: 2025,
         imageUrl: ImageER,
