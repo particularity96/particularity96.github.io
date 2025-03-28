@@ -1,5 +1,5 @@
 ﻿import React, { useState, useRef, useEffect } from "react";
-import '../pages/Archive.css';
+import '../components/Archive.css';
 
 import ImageChor from "../assets/images/choir-23.jpg";
 import ImageConZert from "../assets/images/ConZert.png";
