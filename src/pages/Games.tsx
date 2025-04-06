@@ -21,7 +21,7 @@ const Games: React.FC = () => {
                 buttonLink="https://www.salzsammler.de"
             />
             <YouTubeEmbed
-                youtubeId="_pMCzDzWwfA"
+                youtubeId="0PwrLX29h6Q"
                 title="Salzsammler Trailer"
             />
             <div className="divider"></div>
