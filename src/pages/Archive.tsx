@@ -34,7 +34,9 @@ import ImageMupa from "../assets/images/mupa.jpg";
 import ImageTaC from "../assets/images/tac_logo.png";
 import ImageIKM from "../assets/images/IKM.png";
 import ImageNachtschatten from "../assets/images/Nachtschatten.png";
- 
+import ImageDC from "../assets/images/digitaler_campus_logo_schwarz-13.png";
+
+
 
 interface ArchiveItem {
     title: string;
@@ -276,7 +278,7 @@ const archiveData: ArchiveItem[] = [
         description: "Als die Pandemie begann, waren Gesellschaft und kultureller Austausch ein rares Gut. Um dem entgegenzuwirken, schuf ich im Rahmen meiner Position im Studierendenparlament den 'Digitalen Campus UBT'. Einen Discord-Server, der binnen weniger Tage auf über 1200 Mitglieder wuchs, und sowohl während der Pandemie als auch darüber hinaus ein wichtiger Knotenpunkt der Kommunikation für Studierende und Initiativen war.",
         category: "Sonstige",
         year: 2020,
-        imageUrl: ImageCKS,
+        imageUrl: ImageDC,
         link: "https://www.studienberatung.uni-bayreuth.de/de/studienstart/Tipps-zum-digitalen-Studieren/Kontakte-knuepfen-und-Ankommen/index.html"
     },
     {
