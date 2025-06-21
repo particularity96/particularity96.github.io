@@ -54,7 +54,7 @@ const Musicals: React.FC = () => {
                     description="Eine Gruppe Jugendlicher sucht in einer Kirche Schutz vor dem draußen tobenden Sturm. Sie leben dort teilweise schon seit langer Zeit, abgeschottet von der Außenwelt. Als Neuankömmling Lila dazustößt, wird die Gruppendynamik aufgewirbelt ... 
                                 Dieses neue, etwa 110-minütige Musical erzählt eine bewegende Geschichte über Akzeptanz und Gemeinschaft und verarbeitet dabei Themen wie Queerness, Identität, Freundschaft und Heimat."
                     backgroundImage={bgImageSturm}
-                    buttonText="Mehr Infos"
+                    buttonText="Mehr Infos & Tickets"
                     buttonLink="https://www.sturm-musical.de"
                 />
                 <div style={{ marginBottom: "30px" }}></div> 

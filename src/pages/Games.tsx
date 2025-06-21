@@ -13,9 +13,9 @@ const Games: React.FC = () => {
         <div>
 
             <Showcase
-                title="Intellumia"
+                title="Salzsammler"
                 subtitle="Interaktive Bodenprojektionen"
-                description="Intellumia entwickelt interaktive Bodenprojektionen für Bildungseinrichtungen und Museen. Unsere Installation 'Salzsammler' entsteht gemeinsam mit dem UNESCO Besucherzentrum Welterbe Regensburg. Salzsammler gewann im Jahr 2024 den Games Preis, erhielt eine 'special Mention' beim Dok.Digital und wurde für das NewImagesFestival ausgewählt. Weitere Projekte umfassen das Klima-Spiel 'Energy Racer' sowie das Musiktheorie-Lernspiel 'Music Particles'."
+                description="Salzsammler entwickelt interaktive Bodenprojektionen für Bildungseinrichtungen und Museen. Unsere namensgebende Installation entsteht gemeinsam mit dem UNESCO Besucherzentrum Welterbe Regensburg. Salzsammler gewann im Jahr 2024 den Games Preis, erhielt eine 'special Mention' beim Dok.Digital und wurde für das NewImagesFestival ausgewählt. Weitere Projekte umfassen das Klima-Spiel 'Energy Racer' sowie das Musiktheorie-Lernspiel 'Music Particles'."
                 backgroundImage={bgImageSalzsammler}
                 buttonText="Mehr Infos"
                 buttonLink="https://www.salzsammler.de"
