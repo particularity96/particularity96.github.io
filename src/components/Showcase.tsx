@@ -19,8 +19,11 @@ const Showcase: React.FC<ShowcaseProps> = ({
 }) => {
     // Function to handle button click (open link)
     const handleButtonClick = () => {
-        if (buttonLink) {
-            window.open(buttonLink, "_blank");  // Open the link in a new tab
+        if (!buttonLink) return;
+        if (buttonLink.startsWith("#")) {
+            window.location.hash = buttonLink.slice(1);  // Internal page: stay in the same tab
+        } else {
+            window.open(buttonLink, "_blank");  // External link: open in a new tab
         }
     };
 

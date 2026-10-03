@@ -5,12 +5,12 @@ import InfoCardSheetMusic from '../components/InfoCardSheetMusic';
 import InfoCardGeneric from '../components/InfoCardGeneric';
 
 // Import images
-import song1Image from "../assets/images/album-cover/Album_Cover_Still.png";
-import song2Image from "../assets/images/album-cover/Album_Cover_Farewell.png";
-import song3Image from "../assets/images/album-cover/Album_Cover_Farewell.png";
+import song1Image from "../assets/images/album-cover/Album_Cover_Still.jpg";
+import song2Image from "../assets/images/album-cover/Album_Cover_Farewell.jpg";
+import song3Image from "../assets/images/album-cover/Album_Cover_Farewell.jpg";
 import song4Image from "../assets/images/Wolken.jpg";
 import song5Image from "../assets/images/sturm/Amen2.jpg";
-import song6Image from "../assets/images/album-cover/Album_Cover_Still.png";
+import song6Image from "../assets/images/album-cover/Album_Cover_Still.jpg";
 import song7Image from "../assets/images/Toy-Story.jpg";
 import song8Image from "../assets/images/Piano-Lonely.jpg";
 import song9Image from "../assets/images/Miss_Saigon_Darker.png";

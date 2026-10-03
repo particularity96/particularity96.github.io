@@ -1,15 +1,15 @@
 ﻿import React from 'react';
 import { motion } from "framer-motion";
 import MusicalShowcase from "../components/Showcase";
-import bgImageSturm from "../assets/images/sturm/Sturm_Screenshot.png"
+import bgImageSturm from "../assets/images/sturm/Sturm_Screenshot.jpg"
 import bgImageLaika from "../assets/images/laika/Laika-title.jpg"
 import bgImageScherben from "../assets/images/scherben.jpg"
 import MediaCard from "../components/MediaCard"
 
 import song1Image from "../assets/images/sturm/Ikarus2.png";
-import song2Image from "../assets/images/sturm/Sturm_Screenshot.png";
+import song2Image from "../assets/images/sturm/Sturm_Screenshot.jpg";
 import song3Image from "../assets/images/sturm/Amen.jpg";
-import song4Image from "../assets/images/sturm/Amen.png";
+import song4Image from "../assets/images/sturm/Amen-Schachfigur.jpg";
 import song5Image from "../assets/images/sturm/hourglass.jpg";
 import song6Image from "../assets/images/sturm/Sturm_2.png";
 import song7Image from "../assets/images/laika/IMG_4856-2.jpg";

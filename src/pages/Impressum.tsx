@@ -4,7 +4,7 @@ const Impressum: React.FC = () => {
     return (
         <div className="impressum-page">
             <h1>Impressum</h1>
-            <h2>Angaben gemäß § 5 TMG</h2>
+            <h2>Angaben gemäß § 5 DDG</h2>
             <p>
                 <strong>Nic Schilling</strong><br />
                 Neufeldstr. 6<br />

@@ -10,7 +10,7 @@ const DatenschutzPage = () => {
 
             <h2>Einleitung</h2>
             <p>
-                Wir freuenm uns, dass Sie unsere Website besuchen. Datenschutz und Datensicherheit bei der Nutzung unserer Website sind für uns sehr wichtig. Im Folgenden informieren wir Sie über die Verarbeitung personenbezogener Daten bei der Nutzung unserer Website https://nicschilling.de der Subdomains von nicschilling.de und unserer Profile in Sozialen Medien. Personenbezogene Daten sind alle Daten, die auf eine konkrete natürliche Person beziehbar sind, z. B. Ihr Name oder Ihre IP-Adresse.
+                Wir freuen uns, dass Sie unsere Website besuchen. Datenschutz und Datensicherheit bei der Nutzung unserer Website sind für uns sehr wichtig. Im Folgenden informieren wir Sie über die Verarbeitung personenbezogener Daten bei der Nutzung unserer Website https://nicschilling.de der Subdomains von nicschilling.de und unserer Profile in Sozialen Medien. Personenbezogene Daten sind alle Daten, die auf eine konkrete natürliche Person beziehbar sind, z. B. Ihr Name oder Ihre IP-Adresse.
             </p>
 
             <h2>Kontaktdaten</h2>
@@ -87,12 +87,34 @@ const DatenschutzPage = () => {
 
             <h3>Webhosting und Bereitstellung der Website</h3>
             <p>
-                Unsere Website hostet Netcup. Anbieter ist netcup GmbH, Daimlerstraße 25, 76185 Karlsruhe, Deutschland.
+                Unsere Website wird über GitHub Pages bereitgestellt. Anbieter ist GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA.
+            </p>
+            <p>
+                Beim Aufruf unserer Website verarbeitet GitHub technisch notwendige Daten, insbesondere Ihre IP-Adresse sowie Informationen über Ihren Browser und die aufgerufene Seite, um die Website auszuliefern und die Sicherheit des Dienstes zu gewährleisten. Dabei werden Daten in die USA übermittelt. GitHub ist nach dem EU-US Data Privacy Framework zertifiziert. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO; unser berechtigtes Interesse liegt in der zuverlässigen Bereitstellung unserer Website.
+            </p>
+            <p>
+                Weitere Informationen finden Sie in der Datenschutzerklärung von GitHub: <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Datenschutzerklärung</a>.
+            </p>
+
+            <h3>Schriftarten</h3>
+            <p>
+                Die auf dieser Website verwendeten Schriftarten sind lokal eingebunden. Beim Aufruf der Website wird keine Verbindung zu Servern von Google oder anderen Schriftart-Anbietern hergestellt. Wir setzen keine Analyse- oder Tracking-Werkzeuge ein.
             </p>
 
             <h2>Drittanbieter</h2>
+
+            <h3>YouTube</h3>
             <p>
-                Wir setzen Google Webfonts und Google Analytics zur Analyse ein. Weitere Details finden sich in den jeweiligen Datenschutzerklärungen der Anbieter.
+                Auf einigen Seiten binden wir Videos der Plattform YouTube ein. Anbieter ist Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.
+            </p>
+            <p>
+                Wir nutzen YouTube im erweiterten Datenschutzmodus (youtube-nocookie.com). Nach Angaben von YouTube werden in diesem Modus erst dann Informationen über Ihren Besuch gespeichert, wenn Sie ein Video abspielen. Bereits beim Aufruf der Seite wird jedoch eine Verbindung zu den Servern von YouTube hergestellt und unter anderem Ihre IP-Adresse übermittelt. Beim Abspielen eines Videos kann YouTube Cookies oder vergleichbare Technologien auf Ihrem Endgerät speichern. Sind Sie in Ihrem Google-Konto eingeloggt, kann YouTube Ihr Nutzungsverhalten Ihrem Konto zuordnen. Eine Übermittlung von Daten in die USA ist möglich; Google ist nach dem EU-US Data Privacy Framework zertifiziert.
+            </p>
+            <p>
+                Die Einbindung erfolgt im Interesse einer ansprechenden Darstellung unserer Projekte. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse). Soweit eine Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG; die Einwilligung ist jederzeit widerrufbar.
+            </p>
+            <p>
+                Weitere Informationen finden Sie in der Datenschutzerklärung von Google: <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener noreferrer">Google Datenschutzerklärung</a>.
             </p>
 
             <h3>Spotify</h3>

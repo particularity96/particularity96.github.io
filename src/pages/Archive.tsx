@@ -3,13 +3,13 @@ import '../pages/Archive.css';
 
 import ImageChor from "../assets/images/choir-23.jpg";
 import ImageConZert from "../assets/images/ConZert.png";
-import ImageCypher from "../assets/images/Cypher.png";
+import ImageCypher from "../assets/images/Cypher.jpg";
 import ImageAbbe from "../assets/images/Abbe.png";
 import ImageRise from "../assets/images/Rise.jpg";
 import ImageSolo from "../assets/images/DSC_0079.jpg";
-import ImageMushu from "../assets/images/Mushu.png";
+import ImageMushu from "../assets/images/Mushu.jpg";
 
-import ImageSturm from "../assets/images/sturm/Sturm_Screenshot.png";
+import ImageSturm from "../assets/images/sturm/Sturm_Screenshot.jpg";
 import ImageOMH from "../assets/images/OMH2.jpg";
 import ImageLila from "../assets/images/Lila2.jpg";
 import ImageCAT from "../assets/images/childandthetree-poster.jpg";
@@ -18,22 +18,22 @@ import ImageJeanny from "../assets/images/Jeanny.png";
 import ImageDONA from "../assets/images/steampunkopera-poster.jpg";
 import ImageLaika from "../assets/images/laika/Laika-title.jpg"
 
-import ImageCB from "../assets/images/curse-broom-screenshot.png";
+import ImageCB from "../assets/images/curse-broom-screenshot.jpg";
 import ImageKapella from "../assets/images/screenshot-kapella.png";
 import ImageER from "../assets/images/bg_main_2.jpeg";
 import ImageSalz from "../assets/images/Salzsammler.jpg";
 import ImageBL24 from "../assets/images/BL24.png";
-import ImageBL21 from "../assets/images/BL21.png";
+import ImageBL21 from "../assets/images/BL21.jpg";
 import ImageNash from "../assets/images/Nash.jpg";
 import ImageQMT from "../assets/images/QMusikTheater.jpg";
 import ImageManic from "../assets/images/MANIC_Logo_Hintergrund_lang_bunt_schwarz.png";
-import ImageMOOC from "../assets/images/MOOC.png";
+import ImageMOOC from "../assets/images/MOOC.jpg";
 import ImageCKS from "../assets/images/CKS.png";
 import ImageMoment from "../assets/images/Der-Moment.png";
 import ImageMupa from "../assets/images/mupa.jpg";
 import ImageTaC from "../assets/images/tac_logo.png";
 import ImageIKM from "../assets/images/IKM.png";
-import ImageNachtschatten from "../assets/images/Nachtschatten.png";
+import ImageNachtschatten from "../assets/images/Nachtschatten.jpg";
 import ImageDC from "../assets/images/digitaler_campus_logo_schwarz-13.png";
 
 
@@ -369,7 +369,12 @@ const ArchiveGrid: React.FC = () => {
                             }}
                         >
                             {/* Make the whole item except the button clickable */}
-                            <a href={item.link} className="archive-link" target="_blank" rel="noopener noreferrer">
+                            <a
+                                href={item.link}
+                                className="archive-link"
+                                // Internal pages (#/...) stay in the same tab
+                                {...(item.link?.startsWith("#") ? {} : { target: "_blank", rel: "noopener noreferrer" })}
+                            >
                                 <img
                                     src={item.imageUrl}
                                     alt={item.title}

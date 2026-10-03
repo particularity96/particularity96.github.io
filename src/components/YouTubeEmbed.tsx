@@ -11,7 +11,7 @@ const YouTubeEmbed: React.FC<YouTubeEmbedProps> = ({ youtubeId, title}) => {
             <iframe
                 width="100%"
                 height="100%"
-                src={`https://www.youtube.com/embed/${youtubeId}`}
+                src={`https://www.youtube-nocookie.com/embed/${youtubeId}`}
                 title={title}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

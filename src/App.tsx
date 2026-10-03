@@ -46,7 +46,7 @@ const App: React.FC = () => {
                     <>
                         <Helmet>
                             <title>Chor | Nic Schilling</title>
-                            <meta name="description" content="Kompositionen, Chorwerke und Vokal-Arrangements von Nic Schilling mit Hörbeispielen." />
+                            <meta name="description" content="Kompositionen, Chorwerke und Vokal-Arrangements von Nic Schilling mit HÃ¶rbeispielen." />
                         </Helmet>
                         <Choir />
                     </>
@@ -55,7 +55,7 @@ const App: React.FC = () => {
                     <>
                         <Helmet>
                             <title>Musical | Nic Schilling</title>
-                            <meta name="description" content="Musical, Musiktheater und Live-Hörspiele von Nic Schilling mit Hörbeispielen." />
+                            <meta name="description" content="Musical, Musiktheater und Live-HÃ¶rspiele von Nic Schilling mit HÃ¶rbeispielen." />
                         </Helmet>
                         <Musical />
                     </>
@@ -84,7 +84,7 @@ const App: React.FC = () => {
                     <>
                         <Helmet>
                             <title>Kontakt | Nic Schilling</title>
-                            <meta name="description" content="Kontaktmöglichkeiten für Anfragen und Aufträge." />
+                            <meta name="description" content="KontaktmÃ¶glichkeiten fÃ¼r Anfragen und AuftrÃ¤ge." />
                         </Helmet>
                         <Contact />
                     </>
@@ -93,7 +93,7 @@ const App: React.FC = () => {
                     <>
                         <Helmet>
                             <title>Impressum | Nic Schilling</title>
-                            <meta name="description" content="Rechtlich verbindliche Erklärung zur Verantwortung über den Inhalt" />
+                            <meta name="description" content="Rechtlich verbindliche ErklÃ¤rung zur Verantwortung Ã¼ber den Inhalt" />
                         </Helmet>
                         <Impressum />
                     </>
@@ -102,7 +102,7 @@ const App: React.FC = () => {
                     <>
                         <Helmet>
                             <title>Datenschutz | Nic Schilling</title>
-                            <meta name="description" content="Erklärung zum Datenschutz." />
+                            <meta name="description" content="ErklÃ¤rung zum Datenschutz." />
                         </Helmet>
                         <Datenschutz />
                     </>
