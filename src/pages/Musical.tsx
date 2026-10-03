@@ -1,4 +1,5 @@
 ﻿import React from 'react';
+import { motion } from "framer-motion";
 import MusicalShowcase from "../components/Showcase";
 import bgImageSturm from "../assets/images/sturm/Sturm_Screenshot.png"
 import bgImageLaika from "../assets/images/laika/Laika-title.jpg"
@@ -59,6 +60,18 @@ const Musicals: React.FC = () => {
                 />
                 <div style={{ marginBottom: "30px" }}></div>
                 <div className="media-gallery">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 1 }}
+                        style={{ marginBottom: "30px" }}
+                    >
+                        <div className="nomination-badge">
+                            <span className="nomination-badge-highlight">2× nominiert</span>
+                            <span className="nomination-badge-subtitle">Deutscher Musical Theater Preis 2026</span>
+                        </div>
+                    </motion.div>
                     {/* Spotify embed: Cast Recording */}
                     <div style={{ width: "100%", marginBottom: "20px" }}>
                         <iframe

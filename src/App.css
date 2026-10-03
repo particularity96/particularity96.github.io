@@ -90,7 +90,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.nomination-badge:hover {
+a.nomination-badge:hover {
     transform: translateY(-2px);
     box-shadow: 0 0 36px rgba(212, 175, 55, 0.45);
 }
