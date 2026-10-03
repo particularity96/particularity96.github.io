@@ -1,0 +1,59 @@
+{
+    "siteUrl": "https://nicschilling.de",
+    "pages": [
+        {
+            "path": "/",
+            "title": "Home | Nic Schilling",
+            "description": "Nic Schilling – Komposition, Musiktheater, Chorleitung und Games. Musik - Theater - Games.",
+            "priority": 1.0
+        },
+        {
+            "path": "/about",
+            "title": "Vita | Nic Schilling",
+            "description": "Eine Kurzbiografie von Nic Schilling.",
+            "priority": 0.8
+        },
+        {
+            "path": "/choir",
+            "title": "Chor | Nic Schilling",
+            "description": "Kompositionen, Chorwerke und Vokal-Arrangements von Nic Schilling mit Hörbeispielen.",
+            "priority": 0.8
+        },
+        {
+            "path": "/musical",
+            "title": "Musical | Nic Schilling",
+            "description": "Musical, Musiktheater und Live-Hörspiele von Nic Schilling mit Hörbeispielen.",
+            "priority": 0.8
+        },
+        {
+            "path": "/games",
+            "title": "Games | Nic Schilling",
+            "description": "Interaktive Bildung, Extended Reality und Games!",
+            "priority": 0.8
+        },
+        {
+            "path": "/entdecken",
+            "title": "Entdecken | Nic Schilling",
+            "description": "Eine Sammlung aller wesentlichen Projekte von und mit Nic Schilling.",
+            "priority": 0.7
+        },
+        {
+            "path": "/contact",
+            "title": "Kontakt | Nic Schilling",
+            "description": "Kontaktmöglichkeiten für Anfragen und Aufträge.",
+            "priority": 0.7
+        },
+        {
+            "path": "/impressum",
+            "title": "Impressum | Nic Schilling",
+            "description": "Rechtlich verbindliche Erklärung zur Verantwortung über den Inhalt",
+            "priority": 0.5
+        },
+        {
+            "path": "/datenschutz",
+            "title": "Datenschutz | Nic Schilling",
+            "description": "Erklärung zum Datenschutz.",
+            "priority": 0.5
+        }
+    ]
+}

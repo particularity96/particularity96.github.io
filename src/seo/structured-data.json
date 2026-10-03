@@ -1,0 +1,131 @@
+{
+    "_anleitung": [
+        "Diese Angaben werden beim Build als strukturierte Daten (JSON-LD) in die Startseite eingebaut.",
+        "Sie helfen Google zu verstehen, wer du bist und welche Werke zu dir gehören (Grundlage für ein Knowledge Panel).",
+        "Leere Felder (\"\" oder []) werden automatisch weggelassen – fülle nur aus, was du veröffentlichen möchtest.",
+        "Alle Felder, die mit _ beginnen (wie diese Anleitung), werden ebenfalls weggelassen.",
+        "Nach dem Deploy kannst du das Ergebnis hier prüfen: https://search.google.com/test/rich-results"
+    ],
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Person",
+            "@id": "https://nicschilling.de/#person",
+            "name": "Nic Schilling",
+            "_alternateName": "Andere Namen, unter denen du auftrittst oder bekannt bist, z. B. [\"Niclas Schilling\"]",
+            "alternateName": [
+                "Nic Alexis Schilling"
+            ],
+            "url": "https://nicschilling.de/",
+            "_jobTitle": "Deine Berufsbezeichnung(en), z. B. [\"Komponist:in\", \"Librettist:in\", \"Chorleiter:in\"]",
+            "jobTitle": [
+              "Komponist:in",
+              "Librettist:in",
+              "Chorleiter:in",
+              "Interaction Designer:in",
+              "Game Designer:in"
+            ],
+            "_description": "Ein bis zwei Sätze über dich, z. B. aus deiner Vita",
+            "description": "Nic Schilling ist Komponist:in, Interaction Designer:in und Musiktheaterschaffende:r mit einem interdisziplinären Ansatz zwischen Musik, Theater und digitalen Medien.",
+            "_image": "Absolute URL zu einem Porträtfoto, auf dem man dich gut erkennt, z. B. https://nicschilling.de/portrait.jpg",
+            "image": "https://nicschilling.de/nic-headshot.jpg",
+            "knowsAbout": [
+                "Komposition",
+                "Musiktheater",
+                "Musical",
+                "Chorleitung",
+                "Game Audio",
+                "Interaction Design"
+            ],
+            "alumniOf": {
+                "@type": "CollegeOrUniversity",
+                "name": "Universität Bayreuth"
+            },
+            "memberOf": [
+                {
+                    "@type": "Organization",
+                    "name": "Salzsammler Studios",
+                    "url": "https://www.salzsammler.de"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Förderverein Queeres Musiktheater e.V.",
+                    "url": "https://queeres-musiktheater.de/"
+                }
+            ],
+            "_award": "Persönliche Auszeichnungen als Text, z. B. [\"Nominierung Deutscher Musical Theater Preis 2026 – Kategorie …\"]",
+            "award": [
+                "Nominierung Deutscher Musical Theater Preis 2026 – Beste Komposition (Im Auge des Sturms)",
+                "Nominierung Deutscher Musical Theater Preis 2026 – Beste Liedtexte (Im Auge des Sturms)"
+            ],
+            "_sameAs": "Links zu deinen Profilen. Ergänze z. B. Wikipedia, IMDb, SoundCloud oder die DMTP-Nominiertenseite",
+            "sameAs": [
+                "https://www.instagram.com/nic.schilling/",
+                "https://www.linkedin.com/in/nic-schilling-90828a19a/",
+                "https://www.youtube.com/channel/UCqIDHVXrbbAt0cZ1OLlyZBw",
+                "https://open.spotify.com/artist/7rFgKw092LF3TgxSUBK6OS",
+                "https://particularity.itch.io/"
+            ]
+        },
+        {
+            "@type": "MusicComposition",
+            "name": "Im Auge des Sturms",
+            "genre": "Musical",
+            "inLanguage": "de",
+            "url": "https://nicschilling.de/musical",
+            "composer": { "@id": "https://nicschilling.de/#person" },
+            "lyricist": { "@id": "https://nicschilling.de/#person" },
+            "_description": "Kurzbeschreibung des Musicals",
+            "description": "Eine Gruppe Jugendlicher sucht in einer Kirche Schutz vor dem draußen tobenden Sturm. Sie leben dort teilweise schon seit langer Zeit, abgeschottet von der Außenwelt. Als Neuankömmling Lila dazustößt, wird die Gruppendynamik aufgewirbelt ... Dieses neue, etwa 110-minütige Musical erzählt eine bewegende Geschichte über Akzeptanz und Gemeinschaft und verarbeitet dabei Themen wie Queerness, Identität, Freundschaft und Heimat.",
+            "_dateCreated": "Jahr der Uraufführung bzw. Fertigstellung, z. B. \"2026\"",
+            "dateCreated": "2026",
+            "firstPerformance": {
+                "@type": "Event",
+                "name": "Uraufführung: Im Auge des Sturms",
+                "_startDate": "Genaues Datum der Uraufführung, z. B. \"2026-05-16\"",
+                "startDate": "",
+                "location": {
+                    "@type": "Place",
+                    "name": "Kulturforum Fürth",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Fürth",
+                        "addressCountry": "DE"
+                    }
+                }
+            },
+            "_award": "Auszeichnungen/Nominierungen des Werks, z. B. [\"Nominierung Deutscher Musical Theater Preis 2026 – Kategorie …\"]",
+            "award": [
+                "Nominierung Deutscher Musical Theater Preis 2026 – Beste Komposition",
+                "Nominierung Deutscher Musical Theater Preis 2026 – Beste Liedtexte"
+            ],
+            "sameAs": [
+                "https://www.musikundbuehne.de/skk/im-auge-des-sturms.html"
+            ]
+        },
+        {
+            "@type": "MusicAlbum",
+            "name": "Im Auge des Sturms (Cast Recording)",
+            "_name": "Prüfe, ob der Albumtitel genau so auf Spotify heißt. Interpret auf Spotify ist Nic (bestätigt), das Ensemble ist auf den Tracks genannt.",
+            "albumProductionType": "https://schema.org/SoundtrackAlbum",
+            "byArtist": { "@id": "https://nicschilling.de/#person" },
+            "_datePublished": "Erscheinungsdatum, z. B. \"2026-09-01\"",
+            "datePublished": "",
+            "sameAs": [
+                "https://open.spotify.com/album/1sAzjwgXnLtIYEz0Cketgs"
+            ]
+        },
+        {
+            "@type": "MusicComposition",
+            "name": "Laika",
+            "genre": "Musical",
+            "inLanguage": "de",
+            "url": "https://nicschilling.de/musical",
+            "composer": { "@id": "https://nicschilling.de/#person" },
+            "lyricist": { "@id": "https://nicschilling.de/#person" },
+            "dateCreated": "2014",
+            "_description": "Kurzbeschreibung des Musicals",
+            "description": "Laika ist anders als ihre Mitschülerinnen. Sie hört Musik, egal wohin sie geht. Wenn ihre Klasse und auch ihr Lehrer anfangen, sie dafür auszugrenzen, überschlagen sich die Ereignisse. Das Musical behandelt Themen wie Mobbing, Ausgrenzung und Diversität. Es wurde bereits mehrfach aufgeführt. Aufgrund seiner thematischen Relevanz, flexiblen Besetzung und einfacher Ausstattung ist das Stück besonders gut für Schulen geeignet."
+        }
+    ]
+}

@@ -1,12 +1,12 @@
 ﻿import React, { useEffect, useState } from "react";
-import profilePic from "../assets/images/nic/Chor24-3-cropped.jpg";
+import profilePic from "../assets/images/nic/nic-headshot.jpg";
 
 const About: React.FC = () => {
 
     return (
         <div className="about-container">
             {/* Bio Section with Image */}
-            <img src={profilePic} alt="Nic" className="profile-pic" />
+            <img src={profilePic} alt="Porträt von Nic Schilling"className="profile-pic" />
             <section className="bio-section">
                 
                 <div className="bio-text">

@@ -6,7 +6,6 @@ import {
     Link,
     Navigate
 } from "react-router-dom";
-import { Helmet } from 'react-helmet'; 
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Choir from "./pages/Choir";
@@ -16,9 +15,11 @@ import Archive from "./pages/Archive";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Seo from "./components/Seo";
 import Impressum from "./pages/Impressum";
 import Datenschutz from "./pages/Datenschutz";
 
+// Titles and descriptions for each page live in src/seo/pages.json
 const App: React.FC = () => {
     return (
         <Router>
@@ -26,55 +27,37 @@ const App: React.FC = () => {
             <Routes>
                 <Route path="/" element={
                     <>
-                        <Helmet>
-                            <title>Home | Nic Schilling</title>
-                            <meta name="description" content="Musik - Theater - Chor" /> <meta name="robots" content="index, follow" />
-                        </Helmet>
+                        <Seo path="/" />
                         <Home />
                     </>
                 } />
                 <Route path="/about" element={
                     <>
-                        <Helmet>
-                            <title>Vita | Nic Schilling</title>
-                            <meta name="description" content="Eine Kurzbiografie von Nic Schilling." />
-                        </Helmet>
+                        <Seo path="/about" />
                         <About />
                     </>
                 } />
                 <Route path="/choir" element={
                     <>
-                        <Helmet>
-                            <title>Chor | Nic Schilling</title>
-                            <meta name="description" content="Kompositionen, Chorwerke und Vokal-Arrangements von Nic Schilling mit Hörbeispielen." />
-                        </Helmet>
+                        <Seo path="/choir" />
                         <Choir />
                     </>
                 } />
                 <Route path="/musical" element={
                     <>
-                        <Helmet>
-                            <title>Musical | Nic Schilling</title>
-                            <meta name="description" content="Musical, Musiktheater und Live-Hörspiele von Nic Schilling mit Hörbeispielen." />
-                        </Helmet>
+                        <Seo path="/musical" />
                         <Musical />
                     </>
                 } />
                 <Route path="/games" element={
                     <>
-                        <Helmet>
-                            <title>Games | Nic Schilling</title>
-                            <meta name="description" content="Interaktive Bildung, Extended Reality und Games!" />
-                        </Helmet>
+                        <Seo path="/games" />
                         <Games />
                     </>
                 } />
                 <Route path="/entdecken" element={
                     <>
-                        <Helmet>
-                            <title>Entdecken | Nic Schilling</title>
-                            <meta name="description" content="Eine Sammlung aller wesentlichen Projekte von und mit Nic Schilling." />
-                        </Helmet>
+                        <Seo path="/entdecken" />
                         <Archive />
                     </>
                 } />
@@ -82,28 +65,19 @@ const App: React.FC = () => {
                 <Route path="/archive" element={<Navigate to="/entdecken" replace />} />
                 <Route path="/contact" element={
                     <>
-                        <Helmet>
-                            <title>Kontakt | Nic Schilling</title>
-                            <meta name="description" content="Kontaktmöglichkeiten für Anfragen und Aufträge." />
-                        </Helmet>
+                        <Seo path="/contact" />
                         <Contact />
                     </>
                 } />
                 <Route path="/impressum" element={
                     <>
-                        <Helmet>
-                            <title>Impressum | Nic Schilling</title>
-                            <meta name="description" content="Rechtlich verbindliche Erklärung zur Verantwortung über den Inhalt" />
-                        </Helmet>
+                        <Seo path="/impressum" />
                         <Impressum />
                     </>
                 } />
                 <Route path="/datenschutz" element={
                     <>
-                        <Helmet>
-                            <title>Datenschutz | Nic Schilling</title>
-                            <meta name="description" content="Erklärung zum Datenschutz." />
-                        </Helmet>
+                        <Seo path="/datenschutz" />
                         <Datenschutz />
                     </>
                 } />
