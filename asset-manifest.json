@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ebe043a0.css",
-    "main.js": "/static/js/main.7ca089b5.js",
+    "main.js": "/static/js/main.4c91f96c.js",
     "static/js/453.b03e3c98.chunk.js": "/static/js/453.b03e3c98.chunk.js",
     "static/media/07 - Ich bin für dich da - Laika.mp3": "/static/media/07 - Ich bin für dich da - Laika.93370e21e17bf38a8cc2.mp3",
     "static/media/Farewell to a dying star.mp3": "/static/media/Farewell to a dying star.2efecf05e09123802346.mp3",
@@ -23,7 +23,6 @@
     "static/media/Why god why teaser.mp3": "/static/media/Why god why teaser.47e368662c19ef38046d.mp3",
     "static/media/Album_Cover_Farewell.jpg": "/static/media/Album_Cover_Farewell.ba42219017b3c2f54be6.jpg",
     "static/media/Sturm_2.png": "/static/media/Sturm_2.0ba0ad2d0ccdba1d6cf8.png",
-    "static/media/Chor24-3-cropped.jpg": "/static/media/Chor24-3-cropped.f665b708888d8262797c.jpg",
     "static/media/Der-Moment.png": "/static/media/Der-Moment.c6466607c72a268f3a90.png",
     "static/media/Wolken.jpg": "/static/media/Wolken.2cb19d51f97e6503230b.jpg",
     "static/media/choir-23.jpg": "/static/media/choir-23.3fda9c7605d6eb4a60ac.jpg",
@@ -66,6 +65,7 @@
     "static/media/poppins-devanagari-400-normal.woff": "/static/media/poppins-devanagari-400-normal.421fe9869ff4b58e2d7b.woff",
     "static/media/poppins-devanagari-300-normal.woff": "/static/media/poppins-devanagari-300-normal.62c0b320ffa12beb056b.woff",
     "static/media/poppins-devanagari-700-normal.woff": "/static/media/poppins-devanagari-700-normal.de46590351f7df77172f.woff",
+    "static/media/nic-headshot.jpg": "/static/media/nic-headshot.d6a39568bb136879db53.jpg",
     "static/media/MANIC_Logo_Hintergrund_lang_bunt_schwarz.png": "/static/media/MANIC_Logo_Hintergrund_lang_bunt_schwarz.f9c69470214e13e7e0a3.png",
     "static/media/poppins-devanagari-400-normal.woff2": "/static/media/poppins-devanagari-400-normal.d2ee5e6ea17bffe3bf58.woff2",
     "static/media/poppins-devanagari-300-normal.woff2": "/static/media/poppins-devanagari-300-normal.29252f7cb290e8553720.woff2",
@@ -92,11 +92,11 @@
     "static/media/poppins-latin-ext-700-normal.woff2": "/static/media/poppins-latin-ext-700-normal.51cc1e159ae5f0b8ec5c.woff2",
     "index.html": "/index.html",
     "main.ebe043a0.css.map": "/static/css/main.ebe043a0.css.map",
-    "main.7ca089b5.js.map": "/static/js/main.7ca089b5.js.map",
+    "main.4c91f96c.js.map": "/static/js/main.4c91f96c.js.map",
     "453.b03e3c98.chunk.js.map": "/static/js/453.b03e3c98.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ebe043a0.css",
-    "static/js/main.7ca089b5.js"
+    "static/js/main.4c91f96c.js"
   ]
 }
