@@ -3,7 +3,8 @@ import {
     HashRouter as Router,
     Routes,
     Route,
-    Link
+    Link,
+    Navigate
 } from "react-router-dom";
 import { Helmet } from 'react-helmet'; 
 import Home from "./pages/Home";
@@ -68,15 +69,17 @@ const App: React.FC = () => {
                         <Games />
                     </>
                 } />
-                <Route path="/archive" element={
+                <Route path="/entdecken" element={
                     <>
                         <Helmet>
-                            <title>Archiv | Nic Schilling</title>
+                            <title>Entdecken | Nic Schilling</title>
                             <meta name="description" content="Eine Sammlung aller wesentlichen Projekte von und mit Nic Schilling." />
                         </Helmet>
                         <Archive />
                     </>
                 } />
+                {/* Alte Adresse weiterleiten */}
+                <Route path="/archive" element={<Navigate to="/entdecken" replace />} />
                 <Route path="/contact" element={
                     <>
                         <Helmet>

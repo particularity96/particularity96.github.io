@@ -21,7 +21,7 @@ const Navbar = () => {
                     <li><Link to="/musical" onClick={() => setMenuOpen(false)}>Musical</Link></li>
                     <li><Link to="/games" onClick={() => setMenuOpen(false)}>Games</Link></li>
                     <li><Link to="/about" onClick={() => setMenuOpen(false)}>Vita</Link></li>
-                    <li><Link to="/archive" onClick={() => setMenuOpen(false)}>Archiv</Link></li>
+                    <li><Link to="/entdecken" onClick={() => setMenuOpen(false)}>Entdecken</Link></li>
                     <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Kontakt</Link></li>
                 </ul>
             </div>
