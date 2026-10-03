@@ -95,6 +95,20 @@ const DatenschutzPage = () => {
                 Wir setzen Google Webfonts und Google Analytics zur Analyse ein. Weitere Details finden sich in den jeweiligen Datenschutzerklärungen der Anbieter.
             </p>
 
+            <h3>Spotify</h3>
+            <p>
+                Auf unserer Website binden wir Musik des Streaming-Dienstes Spotify ein. Anbieter ist Spotify AB, Regeringsgatan 19, 111 53 Stockholm, Schweden.
+            </p>
+            <p>
+                Beim Aufruf einer Seite mit eingebettetem Spotify-Player wird eine Verbindung zu den Servern von Spotify hergestellt. Dabei werden unter anderem Ihre IP-Adresse, Informationen über Ihren Browser sowie die aufgerufene Seite an Spotify übermittelt. Sind Sie gleichzeitig in Ihrem Spotify-Konto eingeloggt, kann Spotify den Besuch Ihrem Konto zuordnen. Zudem kann Spotify Cookies oder vergleichbare Technologien auf Ihrem Endgerät speichern. Eine Übermittlung von Daten in Drittländer, insbesondere die USA, kann dabei nicht ausgeschlossen werden.
+            </p>
+            <p>
+                Die Einbindung erfolgt im Interesse einer ansprechenden Darstellung unserer musikalischen Werke. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse). Soweit eine Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG; die Einwilligung ist jederzeit widerrufbar.
+            </p>
+            <p>
+                Weitere Informationen finden Sie in der Datenschutzerklärung von Spotify: <a href="https://www.spotify.com/de/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">Spotify Datenschutzerklärung</a>.
+            </p>
+
             <h2>Datenverarbeitung auf Social-Media Plattformen</h2>
             <p>
                 Wir sind in Social Media-Netzwerken vertreten, um dort unsere Organisation und unsere Leistungen vorzustellen. Die Betreiber dieser Netzwerke verarbeiten Daten ihrer Nutzer regelmäßig zu Werbezwecken.

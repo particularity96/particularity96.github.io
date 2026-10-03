@@ -4,7 +4,7 @@ import Showcase from "../components/Showcase"
 import bgImageSalzsammler from "../assets/images/Salzsammler.jpg"
 import bgImageCB from "../assets/images/curse-broom-screenshot.png"
 import bgImageItch from "../assets/images/screenshot-itch.png"
-import bgImageMM from "../assets/images/screenshot-music-master.png"
+import bgImageKapella from "../assets/images/screenshot-kapella.png"
 import bgImageSphaerophon from "../assets/images/sphaerophon-original.jpg"
 
 
@@ -51,10 +51,10 @@ const Games: React.FC = () => {
             
             <div className="divider"></div>
             <Showcase
-                title="Music Master"
+                title="Kapella"
                 subtitle="Intelligente, adaptive Musik beim Lesen"
-                description="Music Master ist eine Anwendung, die mithilfe von Eye-Tracking-Daten und der automatischen emotionalen Analyse von Text musikalische Parameter vorkomponierter Musik anpassen kann, um die Lese-Erfahrung zu bereichern. Das Projekt ist aktuell in Entwicklung."
-                backgroundImage={bgImageMM}
+                description="Kapella ist eine Anwendung, die mithilfe von Eye-Tracking-Daten und der automatischen emotionalen Analyse von Text musikalische Parameter vorkomponierter Musik anpassen kann, um die Lese-Erfahrung zu bereichern. Das Projekt ist aktuell in Entwicklung."
+                backgroundImage={bgImageKapella}
             />
             <div className="divider"></div>
             <Showcase

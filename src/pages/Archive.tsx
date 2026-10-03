@@ -19,7 +19,7 @@ import ImageDONA from "../assets/images/steampunkopera-poster.jpg";
 import ImageLaika from "../assets/images/laika/Laika-title.jpg"
 
 import ImageCB from "../assets/images/curse-broom-screenshot.png";
-import ImageMM from "../assets/images/screenshot-music-master.png";
+import ImageKapella from "../assets/images/screenshot-kapella.png";
 import ImageER from "../assets/images/bg_main_2.jpeg";
 import ImageSalz from "../assets/images/Salzsammler.jpg";
 import ImageBL24 from "../assets/images/BL24.png";
@@ -172,11 +172,11 @@ const archiveData: ArchiveItem[] = [
 
     // Medien
     {
-        title: "Music Master",
-        description: "Music Master ist eine Anwendung, die mithilfe von Eye-Tracking-Daten und der automatischen emotionalen Analyse von Text musikalische Parameter vorkomponierter Musik anpassen kann, um die Lese-Erfahrung zu bereichern. Das Projekt ist aktuell in Entwicklung.",
+        title: "Kapella",
+        description: "Kapella ist eine Anwendung, die mithilfe von Eye-Tracking-Daten und der automatischen emotionalen Analyse von Text musikalische Parameter vorkomponierter Musik anpassen kann, um die Lese-Erfahrung zu bereichern. Das Projekt ist aktuell in Entwicklung.",
         category: "Medien",
         year: 2025,
-        imageUrl: ImageMM,
+        imageUrl: ImageKapella,
     },
     {
         title: "Energy Racer",

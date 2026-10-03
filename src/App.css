@@ -68,6 +68,70 @@
     }
 }
 
+/* Nomination badge on the home page */
+.nomination-badge {
+    --gold-gradient: linear-gradient(110deg, #b8862b 0%, #f5d97a 20%, #fff6d5 30%, #d4af37 45%, #a8741a 70%, #b8862b 100%);
+    display: inline-block;
+    padding: 14px 32px;
+    border: 1.5px solid transparent;
+    border-radius: 999px;
+    /* Dark glass fill + shimmering gold border */
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) padding-box,
+        var(--gold-gradient) border-box;
+    background-size: 100% 100%, 200% 100%;
+    backdrop-filter: blur(6px);
+    color: white;
+    text-decoration: none;
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
+    letter-spacing: 0.03em;
+    box-shadow: 0 0 24px rgba(212, 175, 55, 0.25);
+    animation: gold-shimmer-border 6s linear infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nomination-badge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 36px rgba(212, 175, 55, 0.45);
+}
+
+.nomination-badge-highlight {
+    display: block;
+    font-weight: 700;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    background: var(--gold-gradient);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gold-shimmer-text 6s linear infinite;
+}
+
+.nomination-badge-subtitle {
+    display: block;
+    margin-top: 2px;
+    font-weight: 300;
+}
+
+@keyframes gold-shimmer-text {
+    from { background-position: 0% 0; }
+    to { background-position: 200% 0; }
+}
+
+@keyframes gold-shimmer-border {
+    from { background-position: 0 0, 0% 0; }
+    to { background-position: 0 0, 200% 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .nomination-badge,
+    .nomination-badge-highlight {
+        animation: none;
+    }
+}
+
 
 /* Logo styling */
 .logo {

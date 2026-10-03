@@ -46,19 +46,33 @@ const mediaItems3 = [
 const Musicals: React.FC = () => {
     return (
         <div>
-            
+
             <div>
                 <MusicalShowcase
                     title="Im Auge des Sturms"
                     subtitle="Coming of Age - Musical"
-                    description="Eine Gruppe Jugendlicher sucht in einer Kirche Schutz vor dem draußen tobenden Sturm. Sie leben dort teilweise schon seit langer Zeit, abgeschottet von der Außenwelt. Als Neuankömmling Lila dazustößt, wird die Gruppendynamik aufgewirbelt ... 
+                    description="Eine Gruppe Jugendlicher sucht in einer Kirche Schutz vor dem draußen tobenden Sturm. Sie leben dort teilweise schon seit langer Zeit, abgeschottet von der Außenwelt. Als Neuankömmling Lila dazustößt, wird die Gruppendynamik aufgewirbelt ...
                                 Dieses neue, etwa 110-minütige Musical erzählt eine bewegende Geschichte über Akzeptanz und Gemeinschaft und verarbeitet dabei Themen wie Queerness, Identität, Freundschaft und Heimat."
                     backgroundImage={bgImageSturm}
-                    buttonText="Mehr Infos & Tickets"
-                    buttonLink="https://www.sturm-musical.de"
+                    buttonText="Zum Verlag"
+                    buttonLink="https://www.musikundbuehne.de/skk/im-auge-des-sturms.html"
                 />
-                <div style={{ marginBottom: "30px" }}></div> 
+                <div style={{ marginBottom: "30px" }}></div>
                 <div className="media-gallery">
+                    {/* Spotify embed: Cast Recording */}
+                    <div style={{ width: "100%", marginBottom: "20px" }}>
+                        <iframe
+                            data-testid="embed-iframe"
+                            title="Im Auge des Sturms – Cast Recording auf Spotify"
+                            style={{ borderRadius: "12px", border: 0 }}
+                            src="https://open.spotify.com/embed/album/1sAzjwgXnLtIYEz0Cketgs?utm_source=generator&si=78057e85524941cf"
+                            width="100%"
+                            height="352"
+                            allowFullScreen
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"
+                        />
+                    </div>
                     <div className="media-grid">
                         {mediaItems1.map((item, index) => (
                             <MediaCard
@@ -90,7 +104,7 @@ const Musicals: React.FC = () => {
                     buttonText="Ich will das aufführen!"
                     buttonLink="#/contact"
                 />
-                <div style={{ marginBottom: "30px" }}></div> 
+                <div style={{ marginBottom: "30px" }}></div>
                 <div className="media-gallery">
                     <div className="media-grid">
                         {mediaItems3.map((item, index) => (
