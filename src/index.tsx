@@ -8,6 +8,12 @@ import './App.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Old links used hash routing (e.g. nicschilling.de/#/musical).
+// Rewrite them to the real path before the router starts, so they keep working.
+if (window.location.hash.startsWith('#/')) {
+  window.history.replaceState(null, '', window.location.hash.slice(1));
+}
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );

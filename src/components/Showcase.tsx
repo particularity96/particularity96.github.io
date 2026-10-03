@@ -1,4 +1,5 @@
 ﻿import React from "react";
+import { useNavigate } from "react-router-dom";
 
 interface ShowcaseProps {
     title: string;
@@ -17,11 +18,13 @@ const Showcase: React.FC<ShowcaseProps> = ({
     buttonText,
     buttonLink
 }) => {
+    const navigate = useNavigate();
+
     // Function to handle button click (open link)
     const handleButtonClick = () => {
         if (!buttonLink) return;
-        if (buttonLink.startsWith("#")) {
-            window.location.hash = buttonLink.slice(1);  // Internal page: stay in the same tab
+        if (buttonLink.startsWith("/")) {
+            navigate(buttonLink);  // Internal page: stay in the same tab
         } else {
             window.open(buttonLink, "_blank");  // External link: open in a new tab
         }

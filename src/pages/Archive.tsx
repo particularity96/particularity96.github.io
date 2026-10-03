@@ -1,4 +1,5 @@
 ﻿import React, { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 import '../pages/Archive.css';
 
 import ImageChor from "../assets/images/choir-23.jpg";
@@ -114,7 +115,7 @@ const archiveData: ArchiveItem[] = [
         category: "Musical",
         year: 2026,
         imageUrl: ImageSturm,
-        link: "#/musical",
+        link: "/musical",
     },
     {
         title: "O MY HEART",
@@ -144,7 +145,7 @@ const archiveData: ArchiveItem[] = [
         category: "Musical",
         year: 2019,
         imageUrl: ImageScherben,
-        link: "#/musical",
+        link: "/musical",
     },
     {
         title: "Jeanny",
@@ -167,7 +168,7 @@ const archiveData: ArchiveItem[] = [
         category: "Musical",
         year: 2014,
         imageUrl: ImageLaika,
-        link: "#/musical",
+        link: "/musical",
     },
 
     // Medien
@@ -191,7 +192,7 @@ const archiveData: ArchiveItem[] = [
         category: "Medien",
         year: 2024,
         imageUrl: ImageCB,
-        link: "#/games",
+        link: "/games",
     },
     {
         title: "Salzsammler",
@@ -199,7 +200,7 @@ const archiveData: ArchiveItem[] = [
         category: "Medien",
         year: 2024,
         imageUrl: ImageSalz,
-        link: "#/games",
+        link: "/games",
     },
     {
         title: "Nash Harding",
@@ -369,26 +370,31 @@ const ArchiveGrid: React.FC = () => {
                             }}
                         >
                             {/* Make the whole item except the button clickable */}
-                            <a
-                                href={item.link}
-                                className="archive-link"
-                                // Internal pages (#/...) stay in the same tab
-                                {...(item.link?.startsWith("#") ? {} : { target: "_blank", rel: "noopener noreferrer" })}
-                            >
-                                <img
-                                    src={item.imageUrl}
-                                    alt={item.title}
-                                    className="archive-image"
-                                />
-                                <div className="archive-info">
-                                    <h3>{item.title} ({item.year})</h3>
-                                    <p>
-                                        {expandedIndex === index
-                                            ? item.description
-                                            : item.description.slice(0, 100) + "..."}
-                                    </p>
-                                </div>
-                            </a>
+                            {(() => {
+                                const content = (
+                                    <>
+                                        <img
+                                            src={item.imageUrl}
+                                            alt={item.title}
+                                            className="archive-image"
+                                        />
+                                        <div className="archive-info">
+                                            <h3>{item.title} ({item.year})</h3>
+                                            <p>
+                                                {expandedIndex === index
+                                                    ? item.description
+                                                    : item.description.slice(0, 100) + "..."}
+                                            </p>
+                                        </div>
+                                    </>
+                                );
+                                // Internal pages (/...) stay in the same tab, external links open a new one
+                                return item.link?.startsWith("/") ? (
+                                    <Link to={item.link} className="archive-link">{content}</Link>
+                                ) : (
+                                    <a href={item.link} className="archive-link" target="_blank" rel="noopener noreferrer">{content}</a>
+                                );
+                            })()}
 
                             {/* The button is now separate, and does not trigger the link */}
                             <button

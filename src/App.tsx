@@ -1,6 +1,6 @@
 import React from "react";
 import {
-    HashRouter as Router,
+    BrowserRouter as Router,
     Routes,
     Route,
     Link,
@@ -107,6 +107,8 @@ const App: React.FC = () => {
                         <Datenschutz />
                     </>
                 } />
+                {/* Unbekannte Adressen auf die Startseite leiten */}
+                <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
             <Footer />
         </Router>
