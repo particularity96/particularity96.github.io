@@ -76,24 +76,9 @@
             "composer": { "@id": "https://nicschilling.de/#person" },
             "lyricist": { "@id": "https://nicschilling.de/#person" },
             "_description": "Kurzbeschreibung des Musicals",
-            "description": "Eine Gruppe Jugendlicher sucht in einer Kirche Schutz vor dem draußen tobenden Sturm. Sie leben dort teilweise schon seit langer Zeit, abgeschottet von der Außenwelt. Als Neuankömmling Lila dazustößt, wird die Gruppendynamik aufgewirbelt ... Dieses neue, etwa 110-minütige Musical erzählt eine bewegende Geschichte über Akzeptanz und Gemeinschaft und verarbeitet dabei Themen wie Queerness, Identität, Freundschaft und Heimat.",
+            "description": "Eine Gruppe Jugendlicher sucht in einer Kirche Schutz vor dem draußen tobenden Sturm. Sie leben dort teilweise schon seit langer Zeit, abgeschottet von der Außenwelt. Als Neuankömmling Lila dazustößt, wird die Gruppendynamik aufgewirbelt ... Dieses neue, etwa 110-minütige Musical erzählt eine bewegende Geschichte über Akzeptanz und Gemeinschaft und verarbeitet dabei Themen wie Queerness, Identität, Freundschaft und Heimat. Uraufführung 2026 im Kulturforum Fürth.",
             "_dateCreated": "Jahr der Uraufführung bzw. Fertigstellung, z. B. \"2026\"",
             "dateCreated": "2026",
-            "firstPerformance": {
-                "@type": "Event",
-                "name": "Uraufführung: Im Auge des Sturms",
-                "_startDate": "Genaues Datum der Uraufführung, z. B. \"2026-05-16\"",
-                "startDate": "",
-                "location": {
-                    "@type": "Place",
-                    "name": "Kulturforum Fürth",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Fürth",
-                        "addressCountry": "DE"
-                    }
-                }
-            },
             "_award": "Auszeichnungen/Nominierungen des Werks, z. B. [\"Nominierung Deutscher Musical Theater Preis 2026 – Kategorie …\"]",
             "award": [
                 "Nominierung Deutscher Musical Theater Preis 2026 – Beste Komposition",
@@ -109,8 +94,6 @@
             "_name": "Prüfe, ob der Albumtitel genau so auf Spotify heißt. Interpret auf Spotify ist Nic (bestätigt), das Ensemble ist auf den Tracks genannt.",
             "albumProductionType": "https://schema.org/SoundtrackAlbum",
             "byArtist": { "@id": "https://nicschilling.de/#person" },
-            "_datePublished": "Erscheinungsdatum, z. B. \"2026-09-01\"",
-            "datePublished": "",
             "sameAs": [
                 "https://open.spotify.com/album/1sAzjwgXnLtIYEz0Cketgs"
             ]
